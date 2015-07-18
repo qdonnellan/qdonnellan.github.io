@@ -2,7 +2,7 @@
 layout: post
 title:  "Working From Home with a Newborn - The First Three Months"
 date:   2014-11-30 08:00:00
-categories: jekyll update
+categories: blog
 ---
 
 
