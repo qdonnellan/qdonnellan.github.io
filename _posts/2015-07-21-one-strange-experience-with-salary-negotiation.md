@@ -9,11 +9,11 @@ Earlier this year I concluded a 5-month long job search by accepting an offer to
 
 ## The Strange
 
-Before SpiderOak offered me a job to work remotely I was testing out the local (Fort Worth) software market. I discovered a company who had a job posting for a full-stack engineer and had been through several interviews with them: (2 on-site, 2 phone, 1 example project). I was very happy when they sent an email offer for the job.
+Before SpiderOak offered me a job to work remotely I was testing out the local (Fort Worth) software market. I discovered a company who had a job posting for a full-stack engineer and had been through several interviews with them: 2 on-site, 2 phone, 1 example project. I was very happy when they sent an email offer for the job.
 
 Unfortunately the offer was low; very low. Essentially they were offering me about what I was making as a high school teacher a year before, which was way off the mark for software engineers in the Dallas/Fort Worth area. My wife and I really liked this company so we decided to counter.
 
-I countered with a number that my wife I were comfortable with and that was within the range of reasonable salaries for my position in the area. I sent them a list of their goals for the upcoming year and how this new full-stack position would help them reach their goals. I also detailed the value-added of the position based on information I'd gleaned from their business during the interview process. I was confident that this new position would bring in several times it's salary in increased revenue and cost savings.
+I countered with a number that my wife and I were comfortable with and that was within the range of reasonable salaries for my position in the area. I sent them a list of their goals for the upcoming year and how this new full-stack position would help them reach their goals. I also detailed the value-added of the position based on information I'd gleaned from their business during the interview process. I was confident that this new position would bring in several times it's salary in increased revenue and cost savings.
 
 Then something strange happened: they never wrote back. After committing several hours, a couple entire afternoons, and a personal meeting with their CEO to me they just walked away. 
 
