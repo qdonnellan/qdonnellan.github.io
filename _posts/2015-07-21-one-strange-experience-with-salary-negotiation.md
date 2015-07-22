@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "One Strange Experience with Salary Negotiation"
-date:   2015-07-20 08:00:00
+date:   2015-07-22 08:00:00
 categories: blog
 ---
 
