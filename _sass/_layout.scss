@@ -188,6 +188,17 @@
 .post-link {
     display: block;
     font-size: 24px;
+    color: #111;
+    text-decoration: none;
+}
+
+.post-link:visited {
+    color: #111;
+}
+
+.post-link:hover {
+    text-decoration:none;
+    color: $brand-color;
 }
 
 
