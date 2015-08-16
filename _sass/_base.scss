@@ -8,13 +8,11 @@ dl, dd, ol, ul, figure {
     padding: 0;
 }
 
-
-
 /**
  * Basic styling
  */
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Merriweather', serif;
     font-size: $base-font-size;
     line-height: $base-line-height;
     font-weight: 300;
@@ -78,7 +76,10 @@ li {
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
-    font-weight: 700
+    font-family: 'Open Sans' sans-serif;
+    font-weight: 800;
+    color: #2e2e2e;
+    letter-spacing: -1px;
 }
 
 
@@ -125,13 +126,14 @@ blockquote {
  */
 pre,
 code {
-    font-size: 15px;
+    font-size: 14px;
     border: 1px solid $grey-color-light;
     border-radius: 3px;
     background-color: #eef;
 }
 
 code {
+    font-family: Consolas,Monaco,'Andale Mono',monospace;
     padding: 1px 5px;
 }
 

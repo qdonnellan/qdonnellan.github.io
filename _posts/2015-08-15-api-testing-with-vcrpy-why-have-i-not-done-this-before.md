@@ -69,8 +69,10 @@ Not convinced by this silly little test, well let's look at a more detailed exam
 
 In this example I've got a small little Stripe client that creates customers and charges cards. I want to write a functional test that proves all my methods work together, which will require several API calls to complete. 
 
-**simple_stripe_client.py**
+
 {% highlight python %}
+""" simple_stripe_client.py - A simple Stripe Client, duh """
+
 import stripe
 
 stripe.api_key = 'sk_test_mYstRIpeApiTestKeynoTsharing'
@@ -97,8 +99,10 @@ class MyStripeClient(object):
         return self.customer.subscriptions.create(plan=plan_id)
 {% endhighlight %}
 
-**test_stripe_client.py**
+
 {% highlight python %}
+""" test_stripe_client.py - Test our simple Stripe client """
+
 import unittest
 import vcr
 from simple_stripe_client import MyStripeClient
