@@ -118,7 +118,7 @@ I scrambled and read [Prorgamming Interviews Exposed][18] as quickly as I could.
 
 I totally bombed that coding interview. I have serious doubts to this day if I even conveyed to that poor employee that I even knew what Python was. 
 
-In hindsight, getting my foot into the door that was FogCreek's interview process was invaluable later in my young career. I used that lesson to eventually make it several steps through Kahn Academy's interview process, and eventually land a job at my current employer (SpiderOak) where I'm the web development lead. 
+In hindsight, getting my foot into the door that was FogCreek's interview process was invaluable later in my young career. I used that lesson to eventually make it several steps through Khan Academy's interview process, and eventually land a job at my current employer (SpiderOak) where I'm the web development lead. 
 
 But man, that interview sucked.
 
