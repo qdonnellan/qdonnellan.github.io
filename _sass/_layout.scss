@@ -3,7 +3,6 @@
  */
 .site-header {
     border-top: 5px solid $grey-color-dark;
-    border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
 
     // Positioning context for the mobile navigation icon
@@ -98,7 +97,6 @@
 
 .footer-heading {
     font-size: 18px;
-    font-family: 'Martel Sans' sans-serif;
     font-weight: 400;
     margin-bottom: $spacing-unit / 2;
 }
@@ -190,6 +188,7 @@
     font-size: 24px;
     color: #111;
     text-decoration: none;
+    border-bottom: none;
 }
 
 .post-link:visited {
@@ -224,10 +223,10 @@
     margin-bottom: $spacing-unit;
 
     p {
-        font-size: 18px;
-        color: #444;
+        font-size: 16px;
+        color: #333;
         font-weight: 300;
-        line-height: 28px;
+        line-height: 26px;
     }
 
     h2 {
