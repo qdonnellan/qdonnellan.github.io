@@ -1,8 +1,14 @@
 <footer class="site-footer">
 
-  <div class="wrapper" align="center">
-    <a href="/">home</a> -- <a href="http://github.com/qdonnellan">@qdonnellan</a>
-
+  <div class="visible-xs">
+  <ul class="mobile-post-list text-center">
+    {% for post in site.posts %}
+      <li>
+          <div class="post-date">{{ post.date | date: "%b %-d, %Y" }}</div>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
   </div>
 
 </footer>

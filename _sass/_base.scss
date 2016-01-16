@@ -1,203 +1,114 @@
-/**
- * Reset some basic elements
- */
-body, h1, h2, h3, h4, h5, h6,
-p, blockquote, pre, hr,
-dl, dd, ol, ul, figure {
-    margin: 0;
-    padding: 0;
+body, html {
+    height: 100%;
 }
 
-/**
- * Basic styling
- */
-body {
+h1, h2, h3 {
     font-family: 'Libre Baskerville', serif;
-    font-size: $base-font-size;
-    line-height: $base-line-height;
-    font-weight: 300;
-    color: $text-color;
-    background-color: $background-color;
-    -webkit-text-size-adjust: 100%;
+    font-weight: 700
 }
 
-
-
-/**
- * Set `margin-bottom` to maintain vertical rhythm
- */
-h1, h2, h3, h4, h5, h6,
-p, blockquote, pre,
-ul, ol, dl, figure,
-%vertical-rhythm {
-    margin-bottom: $spacing-unit / 2;
+.brand {
+    color: #888;
 }
 
-/**
- * Images
- */
-img {
-    max-width: 100%;
-    vertical-align: middle;
-}
-
-
-
-/**
- * Figures
- */
-figure > img {
-    display: block;
-}
-
-figcaption {
-    font-size: $small-font-size;
-}
-
-
-
-/**
- * Lists
- */
-ul, ol {
-    margin-left: $spacing-unit;
-}
-
-li {
-    > ul,
-    > ol {
-         margin-bottom: 0;
+.contact {
+    p {
+        margin: 0px;
+    }
+    a {
+        font-size: 16px;
     }
 }
 
-
-
-/**
- * Headings
- */
-h1, h2, h3, h4, h5, h6 {
-    font-weight: 700;
-    color: #2e2e2e;
-    letter-spacing: -1px;
-}
-
-
-
-/**
- * Links
- */
-a {
-    color: $brand-color;
-    text-decoration: none;
-    border-bottom: 1px dotted $brand-color;
-
-    &:visited {
-        color: darken($brand-color, 15%);
+.hero-post {
+    h1 {
+        margin-bottom: 100px;
+        font-size: 3em;
     }
 
-    &:hover {
-        color: $text-color;
+    ul, ol {
+        font-family: 'Lora', serif;
+        font-size: 18px;
+        line-height: 28px;
     }
-}
 
-
-
-/**
- * Blockquotes
- */
-blockquote {
-    color: $grey-color;
-    border-left: 4px solid $grey-color-light;
-    padding-left: $spacing-unit / 2;
-    font-size: 18px;
-    letter-spacing: -1px;
-    font-style: italic;
-
-    > :last-child {
-        margin-bottom: 0;
-    }
-}
-
-
-
-/**
- * Code formatting
- */
-pre,
-code {
-    font-size: 14px;
-    border: 1px solid $grey-color-light;
-    border-radius: 3px;
-    background-color: #eef;
-}
-
-code {
-    font-family: Consolas,Monaco,'Andale Mono',monospace;
-    padding: 1px 5px;
-}
-
-pre {
-    padding: 8px 12px;
-    overflow-x: scroll;
-
-    > code {
-        border: 0;
-        padding-right: 0;
-        padding-left: 0;
-    }
-}
-
-
-
-/**
- * Wrapper
- */
-.wrapper {
-    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
-    max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
-    margin-right: auto;
-    margin-left: auto;
-    padding-right: $spacing-unit;
-    padding-left: $spacing-unit;
-    @extend %clearfix;
-
-    @include media-query($on-laptop) {
-        max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
-        max-width:         calc(#{$content-width} - (#{$spacing-unit}));
-        padding-right: $spacing-unit / 2;
-        padding-left: $spacing-unit / 2;
-    }
-}
-
-
-
-/**
- * Clearfix
- */
-%clearfix {
-
-    &:after {
-        content: "";
-        display: table;
-        clear: both;
-    }
-}
-
-
-
-/**
- * Icons
- */
-.icon {
-
-    > svg {
-        display: inline-block;
-        width: 16px;
-        height: 16px;
-        vertical-align: middle;
-
-        path {
-            fill: $grey-color;
+    blockquote {
+        font-style: italic;
+        p {
+            font-size: 24px;
         }
+    }
+
+    h2, h3 {
+        margin-top: 50px;
+    }
+
+    img {
+        width: 100%;
+    }
+}
+
+p {
+    font-family: 'Lora', serif;
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 300;
+}
+
+.wrapper {
+    height: 100%;
+}
+
+.container-fluid {
+    padding-top: 70px;
+    height: 100%;
+}
+
+.side-list {
+    padding-right: 50px;
+
+    ul {
+        margin-top: 100px;
+        list-style: none;
+        padding-left: 0;
+
+        li {
+            padding-bottom: 10px;
+            padding-top: 10px;
+            border-bottom: 1px dotted #ccc;
+            .post-date {
+                color: #bbb;
+                font-weight: 400;
+                font-size: 12px;
+            }
+
+            a {
+                color: #999;
+                font-weight: 600;
+            }
+        }
+    }
+}
+
+.mobile-post-list {
+    margin-top: 80px;
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 50px;
+
+    li {
+        padding-bottom: 10px;
+        padding-top: 10px;
+        border-bottom: 1px dotted #ccc;
+        .post-date {
+            color: #bbb;
+            font-weight: 400;
+            font-size: 12px;
+        }
+    }
+
+    a {
+        color: #999;
+        font-weight: 600;
     }
 }

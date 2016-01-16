@@ -1,0 +1,16 @@
+<div class="side-list col-sm-4 col-md-3 hidden-xs">
+  <h2 class="brand">Quentin<br>Donnellan</h2>
+  <div class="contact">
+    <p><a href="mailto:quentin@qdonnellan.com">quentin@qdonnellan.com</a></p>
+    <p><a href="http://github.com/qdonnellan">github.com/qdonnellan</a></p>
+  </div>
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+          <div class="post-date">{{ post.date | date: "%b %-d, %Y" }}</div>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+
+      </li>
+    {% endfor %}
+  </ul>
+</div>
