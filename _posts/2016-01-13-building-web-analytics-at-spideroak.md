@@ -5,7 +5,7 @@ date:   2016-01-13 08:00:00
 categories: blog
 ---
 
-> [Cross-posted at spideroak.com][4]
+*[Cross-posted at spideroak.com][4]*
 
 A few weeks ago, SpiderOak President and CMO Mike McCamon posted an [article][1] on how we ditched Google analytics in favor of our own *home-brewed* solution. That post
 generated a good discussion on Hacker News where many asked how we implemented
