@@ -5,7 +5,7 @@ date:   2016-08-30 09:00:00
 categories: blog
 ---
 
-*[Cross-posted at spideroak.com][https://spideroak.com/articles/inside-the-spideroak-web-our-cms]*
+*[Cross-posted at spideroak.com](https://spideroak.com/articles/inside-the-spideroak-web-our-cms)*
 
 This post is the first of hopefully many through which I shed some light on the design and implementation of the SpiderOak web apps. Our web ecosystem has evolved over the years and is certainly something quite unique to SpiderOak. I make no claim that what we've built in our CMS is proper or even a solution we'd land on if we decided to do it all over again. But it is what we have and it works quite well for us. I'm hopeful that others out there will find this exposé somewhat useful.
  
@@ -25,11 +25,11 @@ The core design idea behind the  CMS is a concept that Mike (CMO, President) had
  
 Every page on our CMS has only 3 important attributes: title, url, and the list of ribbons contained on that page:
  
-IMAGE(/media/cms/cms/PageRibbonClassDiagram.png, PageRibbonModelDiagram, 300)
+![PageRibbonModelDiagram](https://spideroak.com/media/cms/cms/PageRibbonClassDiagram.png)
  
 In this way the Marketing team can build one ribbon, and then re-use it on several different pages. This product ribbon, for example, is re-used in several pages:
  
-IMAGE(/media/cms/cms/Screen_Shot_2016-08-29_at_8.47.48_AM.png, ProductRibbon, 300)
+![ProductRibbon](https://spideroak.com/media/cms/cms/Screen_Shot_2016-08-29_at_8.47.48_AM.png)
  
 Each individual page on spideroak.com is built by compiling a sequence of ribbons on demand and rendering them as one large block of HTML. In doing so we can selectively show some ribbons to one set of users, while substituting all or some of those ribbons to another set. This allows us to have A/B tests for individual ribbons or for entire pages; which we find quite powerful.
  
@@ -55,7 +55,7 @@ Ribbon(
  
 This ribbon is then set inside a `one_column` template with placeholders for each of those attributes:
  
- ```
+```
 <div class='theme-{{ ribbon.custom_attributes.theme }}' >
     <div>{{ ribbon.custom_attributes.content }}</div>
 </div>
@@ -77,11 +77,11 @@ All of these attributes are manipulated in the one feature of our backend that d
  
 The Ribbon Editor is a console for creating our ribbons, and it looks different for each ribbon type. For `one_column` ribbons, the Ribbon Editor displays a list of generic features like theme and background-image, and also has a textbox for inputing **Markdown** content for the ribbon's main content area.
  
-IMAGE(/media/cms/cms/cmsRibbonEditorOneColumn.png, OneColumnRibbonEditor)
+![OneColumnRibbonEditor](https://spideroak.com/media/cms/cms/cmsRibbonEditorOneColumn.png)
  
 A `two_column` ribbon looks essentially the same as a `one_column` ribbon except that is has an extra Markdown content box.
  
-IMAGE(/media/cms/cms/RibbonEditorTwoColumns.png, TwoColumnRibbonEditor)
+![TwoColumnRibbonEditor](https://spideroak.com/media/cms/cms/RibbonEditorTwoColumns.png)
  
 Over the years I've discovered that Markdown is simultaneously powerful and confusing (especially to users not already used to it) and should always be accompanied by a live editor. For this reason, all of our Markdown editor input boxes produce live feedback so that the Marketing team member can see what the ribbon will look like as soon as they start typing new content.
  
@@ -95,7 +95,7 @@ Our form tool was actually written before any of the rest of the CMS was in plac
  
 Each "form field" object contains attributes which describe the field type (email, input, textarea, choice, etc.) the field_id, name, help_text, and whether or not the field is required.
  
-IMAGE(/media/cms/cms/FormClassDiagram.png, FormClassModel, 300)
+![FormClassModel](https://spideroak.com/media/cms/cms/FormClassDiagram.png)
  
 We then have dedicated form-ribbons that set a form into a template with the appropriate Django form widgets based on the form field set for each form.
  
@@ -103,7 +103,7 @@ When a user submits a form, we generate a key-value dataset for each field_id an
  
 All of this is also managed via a nearly out-of-the-box Django admin interface:
  
-IMAGE(/media/cms/cms/Screen_Shot_2016-08-29_at_9.02.59_AM.png, FormEditor)
+![FormEditor](https://spideroak.com/media/cms/cms/Screen_Shot_2016-08-29_at_9.02.59_AM.png)
  
 ### Articles
 Before we built the CMS we had a Word Press blog where we would post all our blog-like articles. But we also had other "article-like" things on the main website: release notes, warrant canaries, support docs, FAQ's etc. When we built the CMS we just collected all those things into one place: the Articles model.
