@@ -1,0 +1,14 @@
+<div class="side-list col-sm-4 col-md-3 hidden-xs">
+    {% include sidebar_header.html %}
+    <ul class="post-list">
+    {% for project in site.projects reversed %}
+        <li>
+            <div class="post-date">{{ project.date }}</div>
+            <a class="post-link project-link" href="{{ project.url | prepend: site.baseurl }}">
+                {{ project.title }} 
+                <div class="project-subtitle">{{ project.subtitle }}</div>
+            </a>
+        </li>
+    {% endfor %}
+    </ul>
+</div>

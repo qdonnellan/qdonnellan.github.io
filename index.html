@@ -3,8 +3,8 @@ layout: default
 ---
 
 <div class="home container-fluid">
-  {% include sidebar.html %}
-  <div class="hero-post col-sm-9 col-md-6">
+  {% include blogs_sidebar.html %}
+  <div class="hero-post col-sm-8 col-md-6">
     {% assign first_post = site.posts[0] %}
     <h1>{{first_post.title }}</h1>
     {{ first_post.content }}
