@@ -3,7 +3,7 @@
     <ul class="post-list">
     {% for project in site.projects reversed %}
         <li>
-            <div class="post-date">{{ project.date }}</div>
+            <div class="post-date">{{ project.duration }}</div>
             <a class="post-link project-link" href="{{ project.url | prepend: site.baseurl }}">
                 {{ project.title }} 
                 <div class="project-subtitle">{{ project.subtitle }}</div>

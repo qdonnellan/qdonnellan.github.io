@@ -2,7 +2,7 @@
 layout: project
 title:  "goKnockdown"
 subtitle: "Lightweight Markdown+Mathjax side-by-side editor"
-date:   "2014"
+duration:   "2014"
 categories: project
 ---
 

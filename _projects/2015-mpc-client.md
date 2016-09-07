@@ -2,7 +2,7 @@
 layout: project
 title:  "mpc-client"
 subtitle: "A python API for asteroids"
-date:   "2015"
+duration:   "2015"
 categories: project
 ---
 

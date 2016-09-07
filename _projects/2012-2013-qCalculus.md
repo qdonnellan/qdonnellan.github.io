@@ -2,7 +2,7 @@
 layout: project
 title:  "qCalculus"
 subtitle: "My attempt to make a Udacity + Khan Academy clone for my own Calculus classes"
-date:   "2012 - 2013"
+duration:   "2012 - 2013"
 categories: project
 ---
 

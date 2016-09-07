@@ -2,7 +2,7 @@
 layout: project
 title:  "speculess"
 subtitle: "Lens review platform for the micro 4/3 photography system"
-date:   "2012"
+duration:   "2012"
 categories: project
 ---
 

@@ -2,7 +2,7 @@
 layout: project
 title:  "Lessonwell"
 subtitle: "A Markdown/MathJax based lesson management platform"
-date:   "2013 - 2015"
+duration:  "2013 - 2015"
 categories: project
 ---
 

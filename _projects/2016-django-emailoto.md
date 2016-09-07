@@ -2,7 +2,7 @@
 layout: project
 title:  "django-emailoto"
 subtitle: "One time use only authentication using Redis and Mailgun"
-date:   "2016"
+duration:   "2016"
 categories: project
 ---
 

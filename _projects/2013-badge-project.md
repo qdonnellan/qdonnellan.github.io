@@ -2,7 +2,7 @@
 layout: project
 title:  "The Badge Project"
 subtitle: "An achievement based gradebook replacement"
-date:   "2013"
+duration:   "2013"
 categories: project
 ---
 The purpose of this project was simple - I wanted an alternative to the traditional gradebook that would allow my students to see what skills/competencies they had learned without the stress/ridiculousness of traditional grades.

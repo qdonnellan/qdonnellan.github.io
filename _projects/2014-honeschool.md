@@ -2,7 +2,7 @@
 layout: project
 title:  "HoneSchool"
 subtitle: "An afterschool program teaching Ruby on Robots"
-date:   "2013 - 2014"
+duration:   "2013 - 2014"
 categories: project
 ---
 
