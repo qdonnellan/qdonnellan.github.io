@@ -52,6 +52,6 @@ I've now got to figure out how to be a better business person.
 [1]: http://qcalculus.appspot.com/
 [2]: https://github.com/qdonnellan/qCalculus
 [3]: http://calculusonchrome.appspot.com/
-[4]: http://www.lessonwell.com/
+[4]: http://lessonwell.appspot.com/
 [5]: https://github.com/qdonnellan/badgeproject
 [6]: https://github.com/qdonnellan/lessonwell
