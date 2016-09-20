@@ -21,6 +21,6 @@ Lessonwell eventually turned into my first business venture, where I also learne
 
 [View Live][3]
 
-[1]: http://localhost:4000/blog/2015/07/23/my-first-big-software-startup-failure.html
+[1]: http://www.qdonnellan.com/blog/2015/07/23/my-first-big-software-startup-failure.html
 [2]: https://github.com/qdonnellan/lessonwell
 [3]: http://lessonwell.appspot.com/terms
