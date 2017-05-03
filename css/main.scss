@@ -6,7 +6,10 @@
 
 
 // Our variables
-$base-font-family: Helvetica, Arial, sans-serif;
+$base-font-family: 'Computer Modern Serif';
+$theme-color: #990000;
+$link-color: #2700E6;
+$mobile-break: 800px;
 $base-font-size:   18px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
@@ -25,5 +28,6 @@ $grey-color-dark:  darken($grey-color, 25%);
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "base",
-        "layout"
+        "layout",
+        "fonts/computer_modern_serif/cmun-serif.css"
 ;

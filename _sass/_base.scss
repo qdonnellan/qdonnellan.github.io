@@ -1,147 +1,135 @@
 body, html {
     height: 100%;
-}
-
-h1, h2, h3 {
-    font-family: 'Libre Baskerville', serif;
-    font-weight: 700
-}
-
-.brand {
-    color: #888;
-}
-
-.sub-brand {
-    font-size: 12px;
-    line-height: 18px;
-}
-
-.contact {
-    p {
-        margin: 0px;
-    }
-    a {
-        font-size: 16px;
-    }
-}
-
-a {
-    color: #2700E6;
-}
-
-a:hover {
-    color: #2700E6;
-}
-
-pre {
+    font-family: $base-font-family;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: $text-color;
     padding: 0;
-    border: none;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin: 0;
 }
 
-.hero-post {
-    padding-left: 20px;
+.wrapper {
+    width: $mobile-break;
+    margin-left: auto;
+    margin-right: auto;
 
-    h1 {
-        margin-bottom: 100px;
-        font-size: 3em;
-    }
-
-    ul, ol {
-        font-family: 'Lora', serif;
-        font-size: 18px;
-        line-height: 28px;
-    }
-
-    blockquote {
-        font-style: italic;
-        p {
-            font-size: 24px;
-        }
-    }
-
-    h2, h3 {
-        margin-top: 50px;
-    }
-
-    img {
+    @media (max-width: $mobile-break) {
         width: 100%;
     }
 }
 
-p {
-    font-family: 'Lora', serif;
+.post, 
+.site-header > div,
+.site-footer > div {
+    padding: 0 10px;
+}
+
+h1 {
+    font-size: 70px;
+    line-height: 70px;
+
+    @media (max-width: $mobile-break) {
+        font-size: 40px;
+        line-height: 40px;
+    }
+}
+
+h2 {
+    font-size: 28px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+h1, h2, h3 {
+    font-family: $base-font-family;
+    font-weight: 700;
+    color: #222222;
+    letter-spacing: -0.05em;
+}
+
+p, .post {
     font-size: 20px;
-    line-height: 32px;
-    font-weight: 300;
 }
 
-.wrapper {
-    height: 100%;
+
+a {
+    color: $link-color;
 }
 
-.container-fluid {
-    padding-top: 15px;
-    height: 100%;
+a:hover {
+    color: darken($link-color, 10%);
 }
 
-.side-list {
-    padding-right: 15px;
-    background-color: #ECEDEE;
-
-    ul {
-        margin-top: 50px;
-        list-style: none;
-        padding-left: 0;
-
-        li {
-            padding-bottom: 10px;
-            padding-top: 10px;
-            border-bottom: 1px dotted #ccc;
-            .post-date {
-                color: #555;
-                font-weight: 400;
-                font-size: 12px;
-            }
-
-            a {
-                color: #373E40;
-                font-weight: 500;
-            }
-        }
-    }
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
 }
 
-a.project-link {
-    font-weight: 600;
-}
-
-.project-subtitle {
-    color: #888;
-    font-weight: 400;
-    font-size: 13px;
-}
-
-.mobile-post-list {
-    margin-top: 80px;
-    list-style: none;
-    padding-left: 0;
-    margin-bottom: 50px;
-
+ul, ol {
     li {
-        padding-bottom: 10px;
-        padding-top: 10px;
-        border-bottom: 1px dotted #ccc;
-        .post-date {
-            color: #bbb;
-            font-weight: 400;
-            font-size: 12px;
-        }
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+}
+
+.site-footer {
+    margin-top: 100px;
+    padding-bottom: 100px;
+    padding-top: 20px;
+    border-top: 3px solid $theme-color;
+    background: #f6f6f6;
+
+
+    p {
+        margin: 0;
+        font-size: 16px;
+    }
+}
+
+
+
+.site-header {
+    margin-bottom: 100px;
+    @media (max-width: $mobile-break) {
+        margin-bottom: 40px;
     }
 
-    a {
-        color: #999;
-        font-weight: 600;
+    .sub-name {
+        display: table;
+        width: 100%;
+        font-size: 20px;
+        border-top: 10px solid $theme-color;
+        border-bottom: 3px solid $theme-color;
+        a {
+            color: $text-color;
+            text-decoration: none;
+        }
+
+    }
+
+    .left-sub-name {
+        display: table-cell;
+        text-align: left;
+        font-weight: bold;
+    }
+
+    .right-sub-name {
+        font-style: italic;
+        display: table-cell;
+        text-align: right;
+    }
+
+
+    @media (max-width: $mobile-break) {
+        .sub-name,
+        .left-sub-name,
+        .right-sub-name {
+            text-align: left;
+            display: block;
+        }
     }
 }
