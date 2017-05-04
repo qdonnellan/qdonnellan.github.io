@@ -37,11 +37,13 @@ Based on the syllabus for each course, completing that entire curriculum should 
 
 Completing these courses will give me a solid foundation in algorithms, data structures, architecture, operating systems, and programming languages (C, Java, Python). This next year will also let me know if I *even want to pursue a degree in computer science!* I plan to post progress reports here on this blog as I complete each course, with a review and links to all my classwork (as permitted by the course's instructors).
 
+In a way, since these courses are not accredited and because I won't be taking any proctored exams, it will be quite a challenge to prove to the Georgia Tech admissions committee that I have properly prepared myself; I'm not even sure if this will work out for me at all! But, I'm confident that at the end of the day this will broaden my understanding of computer science and prepare me to be a better engineer.
+
 ### What's The Point?
 
 Of course, I could complete the aforementioned coursework, gain admission into Georgia Tech and graduate from the master's program but still have to answer this question: what's the point? What's the point of a master's degree in computer science? If degrees are valued less than performance in this industry, *then why the heck am I wasting all this time on a degree?*
 
-To be sure, web development *does* value performance over pedigree; but web development is only a subset of computer science - the proverbial tip of the CS-iceberg. There are other, insanely interesting, fields in this industry for which a degree in computer science is a sort of *gatekeeper*. Fields such as machine learning, artificial intelligence, computer vision, embedded software, etc. are booming right now and many of the positions in those fields favor engineers with more formal education in computer science.
+To be sure, web development *does* value performance over pedigree; but web development is only a subset of computer science - the proverbial tip of the CS-iceberg. There are other, insanely interesting, fields in this industry for which a degree in computer science is a sort of *gatekeeper*. Fields such as machine learning, artificial intelligence, self-driving cars, virtual reality, etc. are booming right now and many of the positions in those fields favor engineers with more formal education in computer science.
 
 At The Container Store, and in the retail industry at large, we recognize the need to utilize these emerging technologies to innovate our businesses and survive (retailers who refuse to adapt are falling by the wayside). There are a number of extremely interesting projects on deck at The Container Store that are way outside the realm of "web development", and learning the fundamentals of these technologies in the setting of a rigorous academic program can only benefit me and the team.
 
@@ -49,7 +51,7 @@ At The Container Store, and in the retail industry at large, we recognize the ne
 
 So, here we go; wish me luck! This will be an incredibly challenging feat to pull off, but I do have the support of my manager and my wife and the determination to see this project through. Please check back here for updates. If you would like to talk to me about my progress or have comments/suggestions about the curriculum I've chosen please reach out and let me know: <a href="mailto:{{ site.email }}">{{ site.email }}</a>
 
-If you are interested in some of the cool projects we have on tap at The Container Store, feel free to reach out as well - we're always looking for talented engineers to join our team!
+Also, if you live in Dallas/Fort-Worth and interested in some of the cool projects we have on tap at The Container Store, feel free to reach out as well - we're always looking for talented engineers to join our team!
 
 
 [1]: https://www.joelonsoftware.com/2006/10/25/the-guerrilla-guide-to-interviewing-version-30/
