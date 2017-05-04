@@ -51,7 +51,7 @@ At The Container Store, and in the retail industry at large, we recognize the ne
 
 So, here we go; wish me luck! This will be an incredibly challenging feat to pull off, but I do have the support of my manager and my wife and the determination to see this project through. Please check back here for updates. If you would like to talk to me about my progress or have comments/suggestions about the curriculum I've chosen please reach out and let me know: <a href="mailto:{{ site.email }}">{{ site.email }}</a>
 
-Also, if you live in Dallas/Fort-Worth and interested in some of the cool projects we have on tap at The Container Store, feel free to reach out as well - we're always looking for talented engineers to join our team!
+Also, if you live in Dallas/Fort-Worth and are interested in some of the cool projects we have on tap at The Container Store, feel free to reach out as well - we're always looking for talented engineers to join our team!
 
 
 [1]: https://www.joelonsoftware.com/2006/10/25/the-guerrilla-guide-to-interviewing-version-30/
