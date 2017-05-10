@@ -100,6 +100,7 @@ ul, ol {
 
     .sub-name {
         display: table;
+        padding: 0px;
         width: 100%;
         font-size: 20px;
         border-top: 10px solid $theme-color;
@@ -109,6 +110,11 @@ ul, ol {
             text-decoration: none;
         }
 
+    }
+
+    .left-sub-name,
+    .right-sub-name {
+        padding: 0 10px;
     }
 
     .left-sub-name {
