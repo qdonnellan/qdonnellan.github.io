@@ -3,3 +3,6 @@ run:
 
 build:
 	bundle exec jekyll build
+
+draft:
+	bundle exec jekyll serve --draft
