@@ -3,6 +3,7 @@ layout: post
 title:  "Six Steps to Better Communication as a Software Developer"
 date:   2015-12-12 08:00:00
 categories: blog
+tags: featured
 ---
 
 I've long held that *communication* is the most important skill for a software developer. Here are some quick-hitting tips that have helped me become a better communicator. 
@@ -11,7 +12,7 @@ I've long held that *communication* is the most important skill for a software d
 ## 1. Be responsive but honest
 Reply to emails as soon as you get them, but don't give quick answers for the sake of having a quick answer to give. It's important to let the other party know that you've acknowledged their request and (if you don't have an answer ready) that you'll get back with them when you've had more time to research. 
 
-People are generally OK waiting for your to respond if they know that you've understood and acknowledged their request; what drives people crazy is not knowing if you even read their email. 
+People are generally OK waiting for you to respond if they know that you've understood and acknowledged their request; what drives people crazy is not knowing if you even read their email. 
 
 ## 2. Let your availability be very public
 The next best thing to responding to every email/phone call as soon as they are received is to let everyone on the team know when you are available. It's important for your team to know when they can reach you, and when they should expect that you will not be able to respond. 
@@ -34,8 +35,12 @@ If something is confusing to you, it's probably confusing to other people as wel
 You should also make an effort to be cognizant of likely misunderstandings in your own communications and attempt to preempt them with clarifications (This is a trivial but powerful example: if you are writing an email to a new-hire about some internal tools, don't blindly use company-specific acronyms without defining them!)
 
 ## 6. Document Everything
-If you made change to something; write it down. If you stumbled across something confusing and subsequently figured out how to solve it, write it down. If you had to do something funky to get development software working correctly (and are assuming it was "just you with this problem") - write it down! 
+If you made changes to something; write it down. If you stumbled across something confusing and subsequently figured out how to solve it, write it down. If you had to do something funky to get development software working correctly (and are assuming it was "just you with this problem") - write it down! 
 
 Where you write it down is important; it should be some place that everyone else can also access. I don't think I've come across one peculiarity that no one else at the company has seen before (or eventually saw again). Writing down how you solved problems will always be worth the time it takes you, and will likely save you (or someone else) several multiples of work time when you/them come across that problem again. 
 
 The top 20 most frustrating experiences I've had as a software developer were the result of having to re-solve problems already experienced by myself or someone else that could have been quickly dismissed if the solution was simply written down.
+
+## Now go do it
+
+That's it! Being a "better communicator" means making an effort to do the things above; if you consciously attempt each of these steps I promise you will see an impact in your life as a developer.
