@@ -16,7 +16,7 @@ tags: course-review, featured
 - Prerequisites: At least a year or so of programming under your belt. 
 - Topics: Data Structures and Algorithms
 - Programming Language: Java
-- How grading works: There are a very small number of in-video quizzes that are multiple choice and not required. Then you have 5 programming assignments that are graded on correctness, memory usage, and time complexity. Your grade in the class is entire derived from these 5 programming assignments. There are also some optional "interview questions" which are not graded.
+- How grading works: There are a very small number of in-video quizzes that are multiple choice and not required. Then you have 5 programming assignments that are graded on correctness, memory usage, and time complexity. Your grade in the class is entirely derived from these 5 programming assignments. There are also some optional "interview questions" which are not graded.
 - Note: This is part 1 of a 2 part algorithms series; part 2 can be found here: [https://www.coursera.org/learn/algorithms-part2][4]
 
 ## Impression
