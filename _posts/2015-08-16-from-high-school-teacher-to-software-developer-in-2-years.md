@@ -11,7 +11,7 @@ More often than not, when someone hears I that I used to be a high school teache
 ## What I knew before I started
 For this journey to make sense, it's probably required that you understand *what I knew* before I started. It would be unfair to say "I jumped into software with absolutely no previous experience", though I believe that someone could. 
 
-In 2007 I graduated from Texas A&M with a degree in Aerospace Engineering. Coursework for that degree required that I learn Fortran and MatLab; I mostly resent the instruction I was given in those two languages, largely because there wasn't any - I taught myself nearly all -  and it was presented entirely from an Aerospace perspective (that is - I didn't learn any computer science fundamentals, only that I could hack together some scripts to solve complicated math problems instead of doing them in Excel or on my calculator).
+In 2007 I graduated from Texas A&M with a degree in Aerospace Engineering. Coursework for that degree required that I learn Fortran and MatLab. However,  those languages were presented entirely from an Aerospace perspective (that is - I didn't learn any computer science fundamentals, only that I could hack together some scripts to solve complicated math problems instead of doing them in Excel or on my calculator).
 
 I believe that our AERO department at A&M could have done a much better job at giving me a software foundation, and that such a foundation would have benefited me greatly in my current endeavors. But then, I'm not currently an Aerospace Engineer and many of my friends who are currently working in that industry are successful despite of their lack of software knowledge.
 
