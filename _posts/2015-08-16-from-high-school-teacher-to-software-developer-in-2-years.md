@@ -3,7 +3,7 @@ layout: post
 title:  "From High School Teacher to Software Developer in 2 Years"
 date:   2015-08-16 12:00:00
 categories: blog
-tags: featured
+tags: 
 ---
 
 More often than not, when someone hears I that I used to be a high school teacher they ask me *"why did you go from teaching to web development?"* That's a tough question to answer and eventually I'll write a succinct narrative on that topic. For now I'd rather address the overview of *how* I made the transition.

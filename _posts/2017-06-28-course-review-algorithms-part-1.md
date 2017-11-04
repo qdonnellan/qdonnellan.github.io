@@ -3,7 +3,7 @@ layout: post
 title:  "Course Review: Algorithms Part 1 (Coursera)"
 date:   2017-06-28 08:00:00
 categories: blog
-tags: course-review, featured
+tags: course-review
 ---
 
 ## Basic Information
