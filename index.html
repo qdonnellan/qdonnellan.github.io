@@ -4,14 +4,16 @@ layout: default
 
 <div class="wrapper">
   <div class="post">
-    <h3>Welcome!</h3>
+    <h1>Welcome!</h1>
     <p>I am a software engineer deeply passionate about engineering and education (especially engineering education!). Please feel free to email me if there's anything at all you want to talk about: <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
 
-    <h3>Featured Posts</h3>
+    <h2>Featured Posts</h2>
     {% for post in site.posts %}
       {% if post.tags contains "featured" %}
         <p>
-            {{ post.date | date: '%b %d, %Y' }} &mdash; <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+
+          <span class="home-date">{{ post.date | date: '%b %d, %Y' }}</span> <br />
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </p>
       {% endif %}
     {% endfor %}

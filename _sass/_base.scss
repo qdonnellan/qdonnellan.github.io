@@ -18,6 +18,17 @@ body, html {
     }
 }
 
+.home-date {
+    color: $text-muted-color;
+    font-size: 16px;
+}
+
+.date {
+    text-align: center;
+    color: $text-muted-color;
+    font-size: 16px;
+}
+
 .post, 
 .site-header > div,
 .site-footer > div {
@@ -27,6 +38,7 @@ body, html {
 h1 {
     font-size: 60px;
     line-height: 60px;
+    font-weight: 900;
 
     @media (max-width: $mobile-break) {
         font-size: 40px;
@@ -36,30 +48,34 @@ h1 {
 
 h2 {
     font-size: 28px;
+    font-weight: 900;
 }
 
 h3 {
-    font-size: 24px;
+    font-size: 20px;
+    font-weight: 900;
 }
 
 h1, h2, h3 {
-    font-family: $base-font-family;
-    font-weight: 700;
-    color: #222222;
-    letter-spacing: -0.05em;
+    font-family: $header-font-family;
+    text-align: center;
+    color: $header-color;
 }
 
 p, .post {
     font-size: 20px;
+    line-height: 1.5;
 }
 
 
 a {
-    color: $link-color;
+    color: $text-color;
+    text-decoration: none;
+    border-bottom: 1px solid $link-color;
 }
 
 a:hover {
-    color: darken($link-color, 10%);
+    color: $link-color;
 }
 
 img {
@@ -80,7 +96,7 @@ ul, ol {
     margin-top: 100px;
     padding-bottom: 100px;
     padding-top: 20px;
-    border-top: 3px solid $theme-color;
+    border-top: 3px solid $text-muted-color;
     background: #f6f6f6;
 
 
@@ -102,14 +118,13 @@ ul, ol {
         display: table;
         padding: 0px;
         width: 100%;
-        font-size: 20px;
-        border-top: 10px solid $theme-color;
-        border-bottom: 3px solid $theme-color;
-        a {
-            color: $text-color;
-            text-decoration: none;
-        }
+        font-size: 16px;
+        padding-top: 10px;
 
+    }
+
+    a {
+        border: none;
     }
 
     .left-sub-name,
@@ -120,7 +135,6 @@ ul, ol {
     .left-sub-name {
         display: table-cell;
         text-align: left;
-        font-weight: bold;
     }
 
     .right-sub-name {
