@@ -8,7 +8,7 @@ tags:
     - omscs
 ---
 
-Seven months ago I began preparing myself for admission into [Georgia Tech's online M.S. in Computer Science program][1]. During those months I've completed courses in Networking, Algorithms, Computer Architecture, Machine Learning, and Neural Networks; I'm also currently enrolled in Deep Learning and Parallel Programming courses. While the content has been challenging, the most difficult task has been *finding time* to take these courses without cutting into my previous family moments. 
+Seven months ago I began preparing myself for admission into [Georgia Tech's online M.S. in Computer Science program][1]. During those months I've completed courses in Networking, Algorithms, Computer Architecture, Machine Learning, and Neural Networks; I'm also currently enrolled in Deep Learning and Parallel Programming courses. While the content has been challenging, the most difficult task has been *finding time* to take these courses without cutting into my precious family moments. 
 
 Eight months ago our second child was born. Ten months ago I accepted a new job (which introduced an additional two-hour daily commute). Twelve months ago we moved into a new house. Yeah - I could have picked a much less busy time to start working toward another degree! However, over the last few months I've become more efficient and more productive than I've ever been.
 
