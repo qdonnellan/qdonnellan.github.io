@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Hacking My Way Into Georgia Tech's OMSCS"
+excerpt: "My plan for gaining admission into Georgia Tech's Online Master's in Computer Science without a formal computer science education."
 date:   2017-05-01 09:00:00
 categories: blog
 tags:

@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Internal Hackathons the Lean Way"
+excerpt: "Finding a winning formula for your companies' internal hackathon using the same principles from the Lean Startup approach to business."
 date:   2017-11-04 09:00:00
 categories: blog
 tags: featured

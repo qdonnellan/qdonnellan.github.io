@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Finding Time For Coursework"
+excerpt: "Tips on finding time for coursework with a full time job, a long commute, and a family of four."
 date:   2017-12-05 07:00:00
 categories: blog
 tags:
