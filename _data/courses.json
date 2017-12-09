@@ -1,0 +1,57 @@
+[
+  {
+    "name": "Algorithms - Part 1",
+    "institution": "Princeton University",
+    "platform": "Coursera",
+    "grade": 95,
+    "url": "https://www.coursera.org/learn/algorithms-part1",
+    "certificate": null,
+    "date": "June 2017"
+  },
+  {
+    "name": "Introduction To Computer Networking",
+    "institution": "Stanford University",
+    "platform": "Lagunita",
+    "grade": 85,
+    "url": "https://lagunita.stanford.edu/courses/Engineering/Networking-SP/SelfPaced/about",
+    "certificate": "https://verify.lagunita.stanford.edu/SOA/d4512436499144cc93960291399a112e/",
+    "date": "August 2017"
+  },
+  {
+    "name": "Building a Modern Computer From First Principles",
+    "institution": "Hebrew University of Jerusalem",
+    "platform": "Coursera",
+    "grade": 100,
+    "url": "https://www.coursera.org/learn/build-a-computer",
+    "certificate": "https://www.coursera.org/account/accomplishments/records/JXTG2NXDEBG4",
+    "date": "September 2017"
+  },
+  {
+    "name": "Machine Learning",
+    "institution": "Stanford University",
+    "platform": "Coursera",
+    "grade": 98,
+    "url": "https://www.coursera.org/learn/machine-learning",
+    "certificate": "https://www.coursera.org/account/accomplishments/records/FGQJZSP2V7KL",
+    "date": "November 2017"
+  },
+  {
+    "name": "Building a Modern Computer From First Principles - Part 2",
+    "institution": "Hebrew University of Jerusalem",
+    "platform": "Coursera",
+    "grade": 92,
+    "url": "https://www.coursera.org/learn/nand2tetris2",
+    "certificate": "https://www.coursera.org/account/accomplishments/records/6Q8SQPGFHFCY",
+    "date": "November 2017"
+  },
+
+  {
+    "name": "Neural Networks and Deep Learning",
+    "institution": "deeplearning.ai",
+    "platform": "Coursera",
+    "grade": 100,
+    "url": "https://www.coursera.org/learn/neural-networks-deep-learning",
+    "certificate": "https://www.coursera.org/account/accomplishments/records/YHYLDCKEVSZR",
+    "date": "December 2017"
+  },
+]

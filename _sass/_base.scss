@@ -153,3 +153,29 @@ ul, ol {
         }
     }
 }
+
+.report {
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid $grey-color-light;
+}
+
+.report__row {
+    margin-bottom: 2px;
+}
+
+.report__row-second-row {
+    font-size: 14px;
+}
+
+.report__course-name {
+    font-weight: 700;
+}
+
+.report__course-institution {
+    font-style: italic;
+}
+
+.report__float-right {
+    float: right;
+}
