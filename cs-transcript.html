@@ -1,0 +1,34 @@
+---
+layout: default
+permalink: /cs-transcript/
+---
+
+<div class="transcript">
+
+  <h1>CS Transcript</h1>
+
+  {% for course in site.data.courses %}
+  <div class="report">
+    <div class="report__float-right">
+        <span class="report__course-grade">{{ course.grade }}%</span>
+        {% if course.certificate %}
+        <br>
+          <a class="report__course-certificate" href="{{ course.certificate }}">Certificate</a>
+        {% endif %}
+    </div>
+    <div class="report__row">
+      <span class="report__course-name">{{ course.name }}</span>
+    </div>
+    <div class="report__row">
+      <span class="report__course-institution">{{ course.institution }}</span>
+    </div>
+    <div class="report__row report__row-second-row">
+      <span class="report__course-date">{{ course.date }}</span>
+      via
+      <a class="report__course-platform" href="{{ course.url }}">{{ course.platform }}</a>
+    </div>
+  </div>
+    
+  {% endfor %}
+
+</div>
