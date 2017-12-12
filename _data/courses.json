@@ -44,7 +44,6 @@
     "certificate": "https://www.coursera.org/account/accomplishments/records/6Q8SQPGFHFCY",
     "date": "November 2017"
   },
-
   {
     "name": "Neural Networks and Deep Learning",
     "institution": "deeplearning.ai",
@@ -52,6 +51,15 @@
     "grade": 100,
     "url": "https://www.coursera.org/learn/neural-networks-deep-learning",
     "certificate": "https://www.coursera.org/account/accomplishments/records/YHYLDCKEVSZR",
+    "date": "December 2017"
+  },
+    {
+    "name": "Parallel Programming in Java",
+    "institution": "Rice University",
+    "platform": "Coursera",
+    "grade": 100,
+    "url": "https://www.coursera.org/learn/parallel-programming-in-java",
+    "certificate": "https://www.coursera.org/account/accomplishments/records/G7J5YD8BYUMJ",
     "date": "December 2017"
   },
 ]
