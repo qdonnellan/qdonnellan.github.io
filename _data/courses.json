@@ -18,7 +18,7 @@
     "date": "August 2017"
   },
   {
-    "name": "Building a Modern Computer From First Principles",
+    "name": "Building a Modern Computer From First Principles: From Nand to Tetris",
     "institution": "Hebrew University of Jerusalem",
     "platform": "Coursera",
     "grade": 100,
@@ -36,7 +36,7 @@
     "date": "November 2017"
   },
   {
-    "name": "Building a Modern Computer From First Principles - Part 2",
+    "name": "Building a Modern Computer From First Principles: From Nand to Tetris - Part 2",
     "institution": "Hebrew University of Jerusalem",
     "platform": "Coursera",
     "grade": 92,
@@ -53,7 +53,7 @@
     "certificate": "https://www.coursera.org/account/accomplishments/records/YHYLDCKEVSZR",
     "date": "December 2017"
   },
-    {
+  {
     "name": "Parallel Programming in Java",
     "institution": "Rice University",
     "platform": "Coursera",
@@ -61,5 +61,23 @@
     "url": "https://www.coursera.org/learn/parallel-programming-in-java",
     "certificate": "https://www.coursera.org/account/accomplishments/records/G7J5YD8BYUMJ",
     "date": "December 2017"
+  },
+  {
+    "name": "Concurrent Programming in Java",
+    "institution": "Rice University",
+    "platform": "Coursera",
+    "grade": null,
+    "url": "https://www.coursera.org/learn/concurrent-programming-in-java",
+    "certificate": null,
+    "date": null
+  },
+  {
+    "name": "Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization",
+    "institution": "deeplearning.ai",
+    "platform": "Coursera",
+    "grade": null,
+    "url": "https://www.coursera.org/learn/deep-neural-network",
+    "certificate": null,
+    "date": null
   },
 ]
