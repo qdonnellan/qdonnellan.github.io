@@ -7,7 +7,7 @@ description: >
   Astronomy, Engineering, Physics, and Calculus. Before that I was an Aerospace
   Engineer. 
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://qdonnellan.github.io" # the base hostname & protocol for your site
+url: "http://www.qdonnellan.com" # the base hostname & protocol for your site
 github_username:  qdonnellan
 
 # Build settings
