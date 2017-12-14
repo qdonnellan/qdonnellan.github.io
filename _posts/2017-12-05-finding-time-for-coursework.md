@@ -79,4 +79,10 @@ I'm also much more aware of how valuable my time is, and as a result I'm just mu
 
 I have no idea if this effort will garner me any brownie points as I apply to Georgia Tech in a few months, but at least I'll know that I can shoulder the workload without breaking a sweat. 
 
+*Interested in the courses I've taken? Take a look at my [unofficial, personal transcript][1]*
+
+
+[1]: /cs-transcript
+
+
 
