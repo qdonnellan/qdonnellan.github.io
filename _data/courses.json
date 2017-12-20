@@ -63,6 +63,15 @@
     "date": "December 2017"
   },
   {
+    "name": "Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization",
+    "institution": "deeplearning.ai",
+    "platform": "Coursera",
+    "grade": 100,
+    "url": "https://www.coursera.org/learn/deep-neural-network",
+    "certificate": "https://www.coursera.org/account/accomplishments/records/EW2NGKANHB2W",
+    "date": "December 2017"
+  },
+  {
     "name": "Concurrent Programming in Java",
     "institution": "Rice University",
     "platform": "Coursera",
@@ -72,11 +81,11 @@
     "date": null
   },
   {
-    "name": "Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization",
+    "name": "Structuring Machine Learning Projects",
     "institution": "deeplearning.ai",
     "platform": "Coursera",
     "grade": null,
-    "url": "https://www.coursera.org/learn/deep-neural-network",
+    "url": "https://www.coursera.org/learn/machine-learning-projects",
     "certificate": null,
     "date": null
   },
