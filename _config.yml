@@ -1,7 +1,7 @@
 # Site settings
 title: Quentin Donnellan
 email: quentin@qdonnellan.com
-tagline: Software, Engineering & Education
+tagline: A Life in the Career of Software Engineering
 description: >
   I am a software engineer deeply passionate about learning new things and helping others do the same. 
 baseurl: "" # the subpath of your site, e.g. /blog/
