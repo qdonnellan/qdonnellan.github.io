@@ -34,6 +34,7 @@ excerpt: "The online courses I've taken to prepare myself for admission to Georg
             <span class="report__in-progress">In Progress</span>
           {% else %}
             <span class="report__course-grade">{{ course.grade }}%</span>
+            {% if course.name == "Algorithms - Part 1" %}<span class="report__asterisk">*</span>{% endif %}
             {% if course.certificate %}
             <br>
               <a class="report__course-certificate" href="{{ course.certificate }}">Certificate</a>
@@ -56,6 +57,13 @@ excerpt: "The online courses I've taken to prepare myself for admission to Georg
       </div>
       
     {% endfor %}
+
+    <div class="report__disclaimer">
+      <span class="report__asterisk">*</span>
+      <em>
+        Princeton University does not grant certificates for courses completed on Coursera. I can provide evidence of completion upon request.
+      </em>
+    </div>
 
 
   </div>
