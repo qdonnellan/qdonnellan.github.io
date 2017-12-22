@@ -75,10 +75,10 @@
     "name": "Concurrent Programming in Java",
     "institution": "Rice University",
     "platform": "Coursera",
-    "grade": null,
+    "grade": 97,
     "url": "https://www.coursera.org/learn/concurrent-programming-in-java",
-    "certificate": null,
-    "date": null
+    "certificate": "https://www.coursera.org/account/accomplishments/records/QC8M7X4TCGFM",
+    "date": "December 2017"
   },
   {
     "name": "Structuring Machine Learning Projects",
@@ -86,6 +86,15 @@
     "platform": "Coursera",
     "grade": null,
     "url": "https://www.coursera.org/learn/machine-learning-projects",
+    "certificate": null,
+    "date": null
+  },
+  {
+    "name": "Distributed Programming in Java",
+    "institution": "Rice University",
+    "platform": "Coursera",
+    "grade": null,
+    "url": "https://www.coursera.org/learn/distributed-programming-in-java",
     "certificate": null,
     "date": null
   },
