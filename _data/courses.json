@@ -84,10 +84,10 @@
     "name": "Structuring Machine Learning Projects",
     "institution": "deeplearning.ai",
     "platform": "Coursera",
-    "grade": null,
+    "grade": 100,
     "url": "https://www.coursera.org/learn/machine-learning-projects",
-    "certificate": null,
-    "date": null
+    "certificate": "https://www.coursera.org/account/accomplishments/records/EC3W4SP3DUDP",
+    "date": "December 2017"
   },
   {
     "name": "Distributed Programming in Java",
@@ -95,6 +95,15 @@
     "platform": "Coursera",
     "grade": null,
     "url": "https://www.coursera.org/learn/distributed-programming-in-java",
+    "certificate": null,
+    "date": null
+  },
+  {
+    "name": "Convolutional Neural Networks",
+    "institution": "deeplearning.ai",
+    "platform": "Coursera",
+    "grade": null,
+    "url": "https://www.coursera.org/learn/convolutional-neural-networks",
     "certificate": null,
     "date": null
   },
