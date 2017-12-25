@@ -2,7 +2,7 @@
 layout: post
 title:  "Zero to CTO: An Idiot's Guide to Climbing the Software Ladder"
 excerpt: "I've spent the last year coming up with a plan to slowly advance my career toward the position of chief technologist."
-date:   2017-12-24 07:00:00
+date:   2017-12-25 16:00:00
 permalink: /zero-to-cto
 categories: blog
 tags:
