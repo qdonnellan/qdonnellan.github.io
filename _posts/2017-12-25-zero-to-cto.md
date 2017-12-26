@@ -105,7 +105,7 @@ Knowing how your software applications work is only a small slice of the things 
 
 ### Action Item 8: *Get an MBA*
 
-The most dense way of signaling you have an understanding of business fundamentals is by earning a MBA. Ironically though, MBA programs offer the *networking* aspect of their experiences as the most important reward - not the education. For this reason, I don't think an early career engineer should necessarily quit working for a couple years for a full-time MBA program. The value of 2 years' software experience is much more valuable than the 2 years of business education.
+The most dense way of signaling you have an understanding of business fundamentals is by earning an MBA. Ironically though, MBA programs offer the *networking* aspect of their experiences as the most important reward - not the education. For this reason, I don't think an early career engineer should necessarily quit working for a couple years for a full-time MBA program. The value of 2 years' software experience is much more valuable than the 2 years of business education.
 
 Instead, I think a part-time *Executive MBA* program might be a particularly well suited for aspiring CTO candidates. After you've established yourself as a high caliber senior engineer, and maybe when you're already well positioned as a leader within your organization, you should consider gaining a business education. A strong technical degree and background coupled with a business degree &mdash; especially one from a technically oriented university like MIT, UC-Berkley, Carnegie Mellon, etc. &mdash; would be quite the compelling background.
 
