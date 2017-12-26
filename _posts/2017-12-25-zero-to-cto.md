@@ -5,7 +5,7 @@ excerpt: "10 methodically planned, actionable steps for software engineers worki
 date:   2017-12-25 16:00:00
 permalink: /zero-to-cto
 categories: blog
-ogimage: /images/zero-to-cto.png?v=1
+ogimage: /images/zero-to-cto-v2.png
 tags:
     - featured
     - omscs
