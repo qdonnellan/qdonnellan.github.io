@@ -8,6 +8,10 @@ body, html {
     margin: 0;
 }
 
+.post ul li, .post ol li {
+    margin-bottom: 5px;
+}
+
 .wrapper {
     width: $mobile-break;
     margin-left: auto;
@@ -199,6 +203,8 @@ ul, ol {
     padding-bottom: 0;
     padding-top: 20px;
     border-top: 3px solid #f6f6f6;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 
@@ -217,4 +223,9 @@ ul, ol {
 .report__asterisk {
     font-size: 18px;
     color: #2700E6;
+}
+
+.share {
+    text-align: center;
+    margin-top: 40px;
 }
