@@ -14,6 +14,10 @@
   {% endif %}
   <meta property="og:type" content="website" />
 
+  {% if page.ogimage %}
+    <meta property="og:image" content="{{ site.url }}{{ page.ogimage }}" />
+  {% endif %}
+
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800" rel="stylesheet">
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
