@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Zero to CTO: An Idiot's Guide to Climbing the Software Ladder"
-excerpt: "10 methodically planned, actionable steps for software engineers working their way to the top."
+excerpt: "How to become a CTO: 10 methodically planned, actionable steps for software engineers working their way to the top."
 date:   2017-12-25 16:00:00
 permalink: /zero-to-cto
 categories: blog
