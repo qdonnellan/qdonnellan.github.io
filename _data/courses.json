@@ -93,10 +93,10 @@
     "name": "Distributed Programming in Java",
     "institution": "Rice University",
     "platform": "Coursera",
-    "grade": null,
+    "grade": 100,
     "url": "https://www.coursera.org/learn/distributed-programming-in-java",
-    "certificate": null,
-    "date": null
+    "certificate": "https://www.coursera.org/account/accomplishments/records/555PKD936D6S",
+    "date": "January 2018"
   },
   {
     "name": "Convolutional Neural Networks",
