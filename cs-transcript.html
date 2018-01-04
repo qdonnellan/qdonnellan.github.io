@@ -27,35 +27,61 @@ excerpt: "The online courses I've taken to prepare myself for admission to Georg
     <br>
 
 
-    {% for course in site.data.courses %}
-      <div class="report">
+    {% for specialization in site.data.courses %}
+    <div>
+
+      <div class="specialization">
+        <div class="specialization__name">
+          {{ specialization.specialization }}
+        </div>
+
+        {% if specialization.certificate %}
+
         <div class="report__float-right">
-          {% if course.date == null %}
-            <span class="report__in-progress">In Progress</span>
-          {% else %}
-            <span class="report__course-grade">{{ course.grade }}%</span>
-            {% if course.name == "Algorithms - Part 1" %}<span class="report__asterisk">*</span>{% endif %}
-            {% if course.certificate %}
-            <br>
-              <a class="report__course-certificate" href="{{ course.certificate }}">Certificate</a>
-            {% endif %}
-          {% endif %}
+          <a class="report__course-certificate" href="{{ specialization.certificate }}">Certificate</a>
         </div>
-        <div class="report__row">
-          <span class="report__course-name">{{ course.name }}</span>
-        </div>
-        <div class="report__row">
-          <span class="report__course-institution">{{ course.institution }}</span>
-        </div>
-        <div class="report__row report__row-second-row">
-          {% if course.date %}
-          <span class="report__course-date">{{ course.date }}</span>
-          {% endif %}
-          via
-          <a class="report__course-platform" href="{{ course.url }}">{{ course.platform }}</a>
-        </div>
+
+        {% endif %}
+
+        {% if specialization.institution %}
+          <div class="specialization__institution">
+            {{ specialization.institution }}
+          </div>
+        {% endif %}
       </div>
-      
+
+
+      {% for course in specialization.courses %}
+        <div class="report">
+          <div class="report__float-right">
+            {% if course.date == null %}
+              <span class="report__in-progress">In Progress</span>
+            {% else %}
+              <span class="report__course-grade">{{ course.grade }}%</span>
+              {% if course.name == "Algorithms - Part 1" %}<span class="report__asterisk">*</span>{% endif %}
+              {% if course.certificate %}
+              <br>
+                <a class="report__course-certificate" href="{{ course.certificate }}">Certificate</a>
+              {% endif %}
+            {% endif %}
+          </div>
+          <div class="report__row">
+            <span class="report__course-name">{{ course.name }}</span>
+          </div>
+          <div class="report__row">
+            <span class="report__course-institution">{{ course.institution }}</span>
+          </div>
+          <div class="report__row report__row-second-row">
+            {% if course.date %}
+            <span class="report__course-date">{{ course.date }}</span>
+            {% endif %}
+            via
+            <a class="report__course-platform" href="{{ course.url }}">{{ course.platform }}</a>
+          </div>
+        </div>
+      {% endfor %}
+
+    </div>
     {% endfor %}
 
     <div class="report__disclaimer">
