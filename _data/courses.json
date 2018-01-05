@@ -58,7 +58,7 @@
     "courses": [
       {
         "name": "Neural Networks and Deep Learning",
-        "institution": "deeplearning.ai",
+        "institution": null,
         "platform": "Coursera",
         "grade": 100,
         "url": "https://www.coursera.org/learn/neural-networks-deep-learning",
@@ -67,7 +67,7 @@
       },
       {
         "name": "Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization",
-        "institution": "deeplearning.ai",
+        "institution": null,
         "platform": "Coursera",
         "grade": 100,
         "url": "https://www.coursera.org/learn/deep-neural-network",
@@ -76,7 +76,7 @@
       },
       {
         "name": "Structuring Machine Learning Projects",
-        "institution": "deeplearning.ai",
+        "institution": null,
         "platform": "Coursera",
         "grade": 100,
         "url": "https://www.coursera.org/learn/machine-learning-projects",
@@ -85,7 +85,7 @@
       },
       {
         "name": "Convolutional Neural Networks",
-        "institution": "deeplearning.ai",
+        "institution": null,
         "platform": "Coursera",
         "grade": null,
         "url": "https://www.coursera.org/learn/convolutional-neural-networks",
@@ -101,7 +101,7 @@
     "courses": [
       {
         "name": "Parallel Programming in Java",
-        "institution": "Rice University",
+        "institution": null,
         "platform": "Coursera",
         "grade": 100,
         "url": "https://www.coursera.org/learn/parallel-programming-in-java",
@@ -110,7 +110,7 @@
       },
       {
         "name": "Concurrent Programming in Java",
-        "institution": "Rice University",
+        "institution": null,
         "platform": "Coursera",
         "grade": 97,
         "url": "https://www.coursera.org/learn/concurrent-programming-in-java",
@@ -119,7 +119,7 @@
       },
       {
         "name": "Distributed Programming in Java",
-        "institution": "Rice University",
+        "institution": null,
         "platform": "Coursera",
         "grade": 100,
         "url": "https://www.coursera.org/learn/distributed-programming-in-java",
@@ -129,16 +129,16 @@
     ]
   },
   {
-    "specialization": "Clound Computing Specialization",
-    "institution": "University of Illinois at Urbana-Champaign",
+    "specialization": "Introduction to Discrete Mathematics for Computer Science",
+    "institution": "University of California, San Diego and National Research University Higher School of Economics",
     "certificate": null,
     "courses": [
       {
-        "name": "Cloud Computing Concepts, Part 1",
-        "institution": "University of Illinois at Urbana-Champaign",
+        "name": "What is a Proof?",
+        "institution": null,
         "platform": "Coursera",
         "grade": null,
-        "url": "https://www.coursera.org/learn/cloud-computing",
+        "url": "https://www.coursera.org/learn/what-is-a-proof",
         "certificate": null,
         "date": null
       }

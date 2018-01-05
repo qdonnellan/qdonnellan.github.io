@@ -68,9 +68,11 @@ excerpt: "The online courses I've taken to prepare myself for admission to Georg
           <div class="report__row">
             <span class="report__course-name">{{ course.name }}</span>
           </div>
+          {% if course.institution %}
           <div class="report__row">
             <span class="report__course-institution">{{ course.institution }}</span>
           </div>
+          {% endif %}
           <div class="report__row report__row-second-row">
             {% if course.date %}
             <span class="report__course-date">{{ course.date }}</span>
