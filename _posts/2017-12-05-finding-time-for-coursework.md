@@ -68,8 +68,7 @@ In all, here is what my daily schedule has become over the last few months:
 - **Last 30-45 Minutes of Work**: End work day with coursework
 - **~6:00**: Arrive home: no more coursework - family time only!
 
-[1]: https://www.omscs.gatech.edu/
-[2]: https://careers-containerstore.icims.com/jobs/search?ss=1&searchCategory=8730
+
 
 ## Sacrifices
 
@@ -79,10 +78,11 @@ I'm also much more aware of how valuable my time is, and as a result I'm just mu
 
 I have no idea if this effort will garner me any brownie points as I apply to Georgia Tech in a few months, but at least I'll know that I can shoulder the workload without breaking a sweat. 
 
-*Interested in the courses I've taken? Take a look at my [unofficial, personal transcript][1]*
+*Interested in the courses I've taken? Take a look at my [unofficial, personal transcript][3]*
 
-
-[1]: /cs-transcript
+[1]: https://www.omscs.gatech.edu/
+[2]: https://careers-containerstore.icims.com/jobs/search?ss=1&searchCategory=8730
+[3]: /cs-transcript
 
 
 
