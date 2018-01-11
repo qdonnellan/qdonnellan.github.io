@@ -137,8 +137,17 @@
         "name": "What is a Proof?",
         "institution": null,
         "platform": "Coursera",
-        "grade": null,
+        "grade": 100,
         "url": "https://www.coursera.org/learn/what-is-a-proof",
+        "certificate": "https://www.coursera.org/account/accomplishments/records/FDXHKLY3YBXJ",
+        "date": "January 2018"
+      },
+      {
+        "name": "Combinatorics and Probability",
+        "institution": null,
+        "platform": "Coursera",
+        "grade": null,
+        "url": "https://www.coursera.org/learn/combinatorics/",
         "certificate": null,
         "date": null
       }
