@@ -146,8 +146,17 @@
         "name": "Combinatorics and Probability",
         "institution": null,
         "platform": "Coursera",
-        "grade": null,
+        "grade": 100,
         "url": "https://www.coursera.org/learn/combinatorics/",
+        "certificate": "https://www.coursera.org/account/accomplishments/records/9HTQFQQ4JF58",
+        "date": "January 2018"
+      },
+      {
+        "name": "Introduction to Graph Theory",
+        "institution": null,
+        "platform": "Coursera",
+        "grade": null,
+        "url": "https://www.coursera.org/learn/graphs",
         "certificate": null,
         "date": null
       }
