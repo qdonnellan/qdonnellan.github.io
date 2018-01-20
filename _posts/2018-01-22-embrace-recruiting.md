@@ -5,7 +5,7 @@ excerpt: "You should embrace recruiters on LinkdIn, they will expand your networ
 date:   2018-01-20 08:00:00
 categories: blog
 permalink: /embrace-recruiters-on-linkedin
-ogimage: /images/recruiter-network.svg
+ogimage: /images/recruiter-network.png
 tags:
     - featured
 ---
