@@ -10,7 +10,7 @@ tags:
     - featured
 ---
 
-For whatever reason I was bombarded with connection requests and recruiter *InMail* this week on LinkedIn. For a moment, I had to suppress the temptation to be mad - a little nugget placed somewhere in my subconscious over the years by disparaging colleagues who loathe recruiters and love to talk about that fact. For as many interactions I have with recruiters I read at least as many posts by software engineers lamenting the very presence of those interactions.
+For some reason, I was bombarded with connection requests and recruiter *InMail* this week on LinkedIn. For a moment, I had to suppress the temptation to be mad - a little nugget placed somewhere in my subconscious over the years by disparaging colleagues who loathe recruiters and love to talk about that fact. For as many interactions I have with recruiters I read at least as many posts by software engineers lamenting the very presence of those interactions.
 
 > Don't they know I already have a job?
 
