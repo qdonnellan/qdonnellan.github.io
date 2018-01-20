@@ -86,7 +86,10 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 80%;
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    box-shadow: 0 0 20px #f6f6f6;
 }
 
 ul, ol {
@@ -252,4 +255,9 @@ ul, ol {
 .specialization__institution {
     font-style: italic;
     font-size: 14px;
+}
+
+.post blockquote p {
+    font-size: 18px;
+    font-style: italic;
 }
