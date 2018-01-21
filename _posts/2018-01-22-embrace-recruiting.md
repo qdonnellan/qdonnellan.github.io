@@ -33,7 +33,7 @@ For those of us not looking for a new job, but are rather looking to expand our 
 
 ## Recruiters get promoted too
 
-Yes, it's easy to look at a request from some fresh-out-of college recruiter and think to yourself *"this person does not add any value to me right now"*. That thinking is so incredibly short sided, that I just had to whip up this visualization to explain why:
+Yes, it's easy to look at a request from some fresh-out-of college recruiter and think to yourself *"this person does not add any value to me right now"*. That thinking is so incredibly shortsighted, that I just had to whip up this visualization to explain why:
 
 ![A recruiter's career path][2]
 
