@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Software Engineers: Embrace Recruiters on LinkedIn"
-excerpt: "You should embrace recruiters on LinkdIn, they will expand your networks and be valuable many years from now."
+excerpt: "You should embrace recruiters on LinkedIn, they will expand your networks and be valuable many years from now."
 date:   2018-01-20 08:00:00
 categories: blog
 permalink: /embrace-recruiters-on-linkedin
