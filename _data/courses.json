@@ -155,8 +155,17 @@
         "name": "Introduction to Graph Theory",
         "institution": null,
         "platform": "Coursera",
-        "grade": null,
+        "grade": 100,
         "url": "https://www.coursera.org/learn/graphs",
+        "certificate": "https://www.coursera.org/account/accomplishments/records/4GHLD2RV5C9R",
+        "date": "January 2018"
+      },
+            {
+        "name": "Number Theory and Cryptography",
+        "institution": null,
+        "platform": "Coursera",
+        "grade": null,
+        "url": "https://www.coursera.org/learn/number-theory-cryptography",
         "certificate": null,
         "date": null
       }
