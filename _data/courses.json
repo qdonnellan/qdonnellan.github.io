@@ -126,6 +126,15 @@
         "certificate": "https://www.coursera.org/account/accomplishments/records/8S2WKSTLZCTM",
         "date": "January 2018"
       },
+      {
+        "name": "Sequence Models",
+        "institution": null,
+        "platform": "Coursera",
+        "grade": null,
+        "url": "https://www.coursera.org/learn/nlp-sequence-models",
+        "certificate": null,
+        "date": null
+      },
     ]
   },
   {
@@ -160,12 +169,21 @@
         "certificate": "https://www.coursera.org/account/accomplishments/records/4GHLD2RV5C9R",
         "date": "January 2018"
       },
-            {
+      {
         "name": "Number Theory and Cryptography",
         "institution": null,
         "platform": "Coursera",
-        "grade": null,
+        "grade": 100,
         "url": "https://www.coursera.org/learn/number-theory-cryptography",
+        "certificate": "https://www.coursera.org/account/accomplishments/records/EG294K38SUC4",
+        "date": "February 2018"
+      },
+      {
+        "name": "Delivery Problem",
+        "institution": null,
+        "platform": "Coursera",
+        "grade": 100,
+        "url": "https://www.coursera.org/learn/delivery-problem",
         "certificate": null,
         "date": null
       }
