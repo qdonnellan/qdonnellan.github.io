@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Practicing Mindfulness as a Husband and Father"
-excerpt: "something"
+excerpt: "Tips for becoming more mentally present in your home as a spouse and parent."
 date:   2018-02-16 07:00:00
 categories: blog
 permalink: /mindfulness-as-husband-and-father
