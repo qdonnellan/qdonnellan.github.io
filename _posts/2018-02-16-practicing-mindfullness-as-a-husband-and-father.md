@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "Practicing Mindfullness as a Husband and Father"
+title:  "Practicing Mindfulness as a Husband and Father"
 excerpt: "something"
 date:   2018-02-16 07:00:00
 categories: blog
-permalink: /mindfullness-as-husband-and-father
+permalink: /mindfulness-as-husband-and-father
 tags:
     - featured
 ---
