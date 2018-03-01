@@ -88,7 +88,7 @@
   {
     "specialization": "Deep Learning &mdash; Specialization",
     "institution": "deeplearning.ai",
-    "certificate": null,
+    "certificate": "https://www.coursera.org/account/accomplishments/specialization/D4H2UF8E3KAW",
     "courses": [
       {
         "name": "Neural Networks and Deep Learning",
@@ -130,17 +130,17 @@
         "name": "Sequence Models",
         "institution": null,
         "platform": "Coursera",
-        "grade": null,
+        "grade": 100,
         "url": "https://www.coursera.org/learn/nlp-sequence-models",
-        "certificate": null,
-        "date": null
+        "certificate": "https://www.coursera.org/account/accomplishments/records/XWERF7AHLQD4",
+        "date": "February 2018"
       },
     ]
   },
   {
     "specialization": "Introduction to Discrete Mathematics for Computer Science &mdash; Specialization",
     "institution": "University of California, San Diego and National Research University Higher School of Economics",
-    "certificate": null,
+    "certificate": "https://www.coursera.org/account/accomplishments/specialization/Y3F447PBP6XH",
     "courses": [
       {
         "name": "What is a Proof?",
@@ -184,8 +184,8 @@
         "platform": "Coursera",
         "grade": 100,
         "url": "https://www.coursera.org/learn/delivery-problem",
-        "certificate": null,
-        "date": null
+        "certificate": "https://www.coursera.org/account/accomplishments/records/EZQYVX3JWJBS",
+        "date": "February 2018"
       }
     ]
   }
