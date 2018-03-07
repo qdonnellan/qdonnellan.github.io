@@ -15,7 +15,7 @@ Last week I submitted my application to Georgia Tech’s online Master’s progr
 
 For those unfamiliar with a career in software engineering, it’s important to understand a peculiar aspect of our industry: no degrees are actually required here. It’s quite a unicorn of a situation, to be sure. In one of the highest paying professions in America, *no degrees are required to be successful*! Many of my colleagues have been self-taught developers, coming from various other undergraduate programs &mdash; I myself am one. Some have not completed any college education, instead they passed through some sort of “coding bootcamp” where they’ve spent several weeks soaking up the essentials of writing software programs. 
 
-Honestly, this is one of the most endearing qualities of our profession: that anyone, anywhere &mdash; giving the proper aptitude &mdash; can learn and make a comfortable living writing software. So why would anyone ever want to pursue a master's degree in the thing?
+Honestly, this is one of the most endearing qualities of our profession: that anyone, anywhere &mdash; given the proper aptitude &mdash; can learn and make a comfortable living writing software. So why would anyone ever want to pursue a master's degree in the thing?
 
 ## Nuances of Software Development Industry
 
