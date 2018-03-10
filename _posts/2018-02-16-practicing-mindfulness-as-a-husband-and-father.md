@@ -7,6 +7,7 @@ categories: blog
 permalink: /mindfulness-as-husband-and-father
 tags:
     - featured
+    - father
 ---
 
 Over the last year I've spent quite a bit of time thinking about my future, dissecting probably every possible career arc for a software engineer. Along the way I've consumed countless articles on everything from technical guides on specific software practices to business advice for executives, and for the most part I've been perpetually pensive on the subject, even at home. 

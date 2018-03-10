@@ -3,6 +3,8 @@ layout: post
 title:  "Six Steps to Better Communication as a Software Developer"
 date:   2015-12-12 08:00:00
 categories: blog
+tags:
+    - career
 ---
 
 I've long held that *communication* is the most important skill for a software developer. Here are some quick-hitting tips that have helped me become a better communicator. 

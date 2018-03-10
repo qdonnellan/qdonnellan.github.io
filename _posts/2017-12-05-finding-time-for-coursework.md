@@ -7,6 +7,7 @@ categories: blog
 tags:
     - featured
     - omscs
+    - career
 ---
 
 Seven months ago I began preparing myself for admission into [Georgia Tech's online M.S. in Computer Science program][1]. During those months I've completed courses in Networking, Algorithms, Computer Architecture, Machine Learning, and Neural Networks; I'm also currently enrolled in Deep Learning and Parallel Programming courses. While the content has been challenging, the most difficult task has been *finding time* to take these courses without cutting into my precious family moments. 

@@ -4,7 +4,9 @@ title:  "Internal Hackathons the Lean Way"
 excerpt: "Finding a winning formula for your companies' internal hackathon using the same principles from the Lean Startup approach to business."
 date:   2017-11-04 09:00:00
 categories: blog
-tags: featured
+tags: 
+    - featured
+    - tcs
 ---
 
 One of the many awesome reasons why I love working as a software engineer at The Container Store is that once every other month we take time out of our busy days to compete in a [24-hour hackathon][2]. We self-organize into teams around some project we think is loosely related to our business and a day later we demonstrate whatever we were able to cobble together. 

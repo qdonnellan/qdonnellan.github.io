@@ -3,6 +3,8 @@ layout: post
 title:  "My First Big Software Startup Failure"
 date:   2015-07-23 08:30:00
 categories: blog
+tags:
+    - startups
 ---
 
 As much as I enjoy reading about young people's success in the software startup space, I never can get enough of people's *failures*. After all, you learn more from your failures than from anything else. So here's a bit on mine.

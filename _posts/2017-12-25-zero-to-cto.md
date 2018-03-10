@@ -9,6 +9,7 @@ ogimage: /images/zero-to-cto-v3.png
 tags:
     - featured
     - omscs
+    - career
 ---
 
 About a year ago I started preparing myself for a master's degree in Computer Science. Along the way I've been asking myself a ton of questions about my future: Is a master's degree worth it? Can I advance my career with it? What does an advanced career in software engineering look like? What's my end goal? *What do I want to be when I grow up?* I've been busy browsing job titles, job postings, resumes, LinkedIn profiles, blog posts, career guides, you name it: all in an effort to map out possible careers paths in this industry. 
