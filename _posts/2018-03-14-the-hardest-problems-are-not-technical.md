@@ -2,7 +2,7 @@
 layout: post
 title:  "The Hardest Problems in Your Software Career Will Not Be Technical"
 excerpt: "You'll encounter many challenges in your software careers - the non-technical ones will be the toughest."
-date:   2018-03-13 07:00:00
+date:   2018-03-14 07:00:00
 categories: blog
 permalink: /the-hardest-problems-are-not-technical
 tags:
