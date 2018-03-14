@@ -4,7 +4,6 @@ title:  "Finding a Home on the Software Team at The Container Store"
 date:   2017-05-24 08:00:00
 categories: blog
 tags: 
-    - featured
     - tcs
     - career
     - father

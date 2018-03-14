@@ -3,6 +3,8 @@ layout: post
 title:  "Keeping Code Clean is like Maintaining a Garden"
 date:   2015-09-11 08:00:00
 categories: blog
+tags:
+    - technical
 ---
 
 A few years back I installed a sprinkler system in my future wife's backyard. We also built a small little retainer wall for a raised planter and plopped down a couple trees. I was very happy with the result, and on day zero it looked great.

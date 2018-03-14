@@ -3,6 +3,8 @@ layout: post
 title:  "API Testing With VCR.py - Why Have I Not Done This Before?"
 date:   2015-08-15 20:00:00
 categories: blog
+tags:
+    - technical
 ---
 
 A few months ago a co-worker suggested that I mock my API tests using **VCR.py** ([here's a link to the library on github][1]). At the time, I had no idea what **VCR.py** was, or how to use it; I was, however, totally aware that my API tests were taking too long and causing needless hits to our various third party (and internal) API services. So I looked into this **VCR.py** thing - and I just had to write a blog post about it because it's that awesome.
