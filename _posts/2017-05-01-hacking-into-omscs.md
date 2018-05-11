@@ -55,6 +55,8 @@ So, here we go; wish me luck! This will be an incredibly challenging feat to pul
 
 Also, if you live in Dallas/Fort-Worth and are interested in some of the cool projects we have on tap at The Container Store, feel free to reach out as well - we're always looking for talented engineers to join our team!
 
+**Update May 2018: I got in!!!** [read more][11]
+
 
 [1]: https://www.joelonsoftware.com/2006/10/25/the-guerrilla-guide-to-interviewing-version-30/
 [2]: https://www.reddit.com/r/OMSCS/
@@ -66,3 +68,4 @@ Also, if you live in Dallas/Fort-Worth and are interested in some of the cool pr
 [8]: https://www.udacity.com/course/artificial-intelligence-for-robotics--cs373
 [9]: https://www.udacity.com/course/intro-to-machine-learning--ud120
 [10]: http://standfor.containerstore.com/
+[11]: /getting-accepted-to-omscs
