@@ -39,7 +39,7 @@ At the same time I was steadily developing a deep passion to help others in a di
 
 Looking back, it's not really a mystery that I averaged just less than a B in my courses. But it's also obvious to me that my failures in those undergraduate years really had nothing to do with the rigor of the coursework and everything to do with my mental state, an overcommitment to extracurricular things, and a change in life goals at the time. I've since received a graduate degree in Physics Education with a much better GPA, which &mdash; at least in my own eyes &mdash; is proof that my earlier grades were aberrant. 
 
-It's tricky to explain in just a few sentences that while all these experiences contributed to a low GPA they also formed the person am I am today, but that was my approach. I didn't spent a whole lot of time on it, and focused the majority of my background essay on my positive journey toward software, but I did address this story directly.
+It's tricky to explain in just a few sentences that while all these experiences contributed to a low GPA they also formed the person am I am today, but that was my approach. I didn't spend a whole lot of time on it, and focused the majority of my background essay on my positive journey toward software, but I did address this story directly.
 
 ## Telling a compelling story about my journey to software
 If you've read this far, you may be wondering how the heck I found myself in the software industry at all! I started out in aerospace, had a brief stop discerning the priesthood, turned that vocation into a 6-year stint as high school teacher, all before finding a career as a software engineer.
