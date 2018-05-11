@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Getting Accepted to Georgia Tech's Online Master's Program in Computer Science (OMSCS)"
-excerpt: "You'll encounter many challenges in your software careers - the non-technical ones will be the toughest."
+excerpt: "I got accepted to Georgia Tech's online masters degree in Computer Science; here's how I did it..."
 date:   2018-03-14 07:00:00
 categories: blog
 permalink: /getting-accepted-to-omscs
