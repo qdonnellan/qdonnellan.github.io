@@ -13,6 +13,8 @@ tags:
 
 Hooray! I got accepted into Georgia Tech's OMSCS program! Thanks for all the kind words of encouragement along the way, and as promised I wanted to take a few minutes to lay out how I successfully applied to this program. 
 
+![Acceptance Letter][5]
+
 Honestly I'm a bit surprised that I got in &mdash; I considered my chances solidly "on the fence". In my opinion there were a few major strikes against my application:
 
 - I had no formal computer science education and my undergraduate degree was not really related to computer-anything (Aerospace Engineering)
@@ -78,3 +80,4 @@ I wish well anyone else applying to this program and I'll continue to gladly ans
 [2]: /cs-transcript
 [3]: /blog/2017/05/01/hacking-into-omscs.html
 [4]: mailto:quentin@qdonnellan.com
+[5]: /images/omscs-acceptance-letter.png
