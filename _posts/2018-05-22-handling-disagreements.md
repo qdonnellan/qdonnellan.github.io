@@ -11,7 +11,7 @@ tags:
     - teamwork
 ---
 
-We've all been here: there's a heated argument on a team, one person is passionately proselytizing about the supposed right way to do something while another has literally become red faced holding a completely opposite, and equally passionate, opinion. Others in the room are *intentionally* silent, just hoping for the episode to be over so that they can get back to their work. 
+We've all been here: there's a heated argument on a team, one person is passionately proselytizing about the supposed right way to do something while another has literally become red faced holding a completely opposite, and equally passionate opinion. Others in the room are *intentionally* silent, just hoping for the episode to be over so that they can get back to their work. 
 
 A few weeks go by and you've mostly forgotten about the experience until something *goes wrong* with your product which conclusively proves one side of that argument was *right* &mdash; a flurry of "I told you so's" are issued under-breath all while team morale just sinks one notch lower. Even a year or two afterwards the victor is holding their success high, kind of like a challenge to others on the team: *I dare you to try and tell me that I'm wrong about, anything!*
 
