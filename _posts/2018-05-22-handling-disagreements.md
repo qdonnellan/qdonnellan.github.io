@@ -36,7 +36,7 @@ Few things are as infuriating as someone holding a victory over your heads for m
 ## Don't take it personally
 Perhaps the most difficult habit to shake is this: taking things personally. Actually, this is probably the root of all issues in team arguments; some people find it impossible to dissociate themselves from their ideas. 
 
-It reminds me of arguments between neighbors over which brand of car is better. I know you *drive* a Toyota, but you yourself are not a Toyota. Yet, many people are *personally offended* when a disparaging comment about their car brand &mdash; not even their particular car &mdash; is heard. What's crazy is that comments about these inanimate, mechanical creations often lean to *real* personal attacks and can lead to a rift between friends.
+It reminds me of arguments between neighbors over which brand of car is better. I know you *drive* a Toyota, but you yourself are not a Toyota. Yet, many people are *personally offended* when a disparaging comment about their car brand &mdash; not even their particular car &mdash; is heard. What's crazy is that comments about these inanimate, mechanical creations often lead to *real* personal attacks and can cause a rift between friends.
 
 You've also seen this on your teams: what started out as a calm debate about which color to use on your product has somehow devolved into personal attacks that have nothing to do with the product at all.
 
