@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Quentin Donnellan</title>
-    <link>www.qdonnellan.com/cs-transcript/</link>
+    <link>/cs-transcript/</link>
     <description>Recent content on Quentin Donnellan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="www.qdonnellan.com/cs-transcript/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/cs-transcript/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

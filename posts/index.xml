@@ -2,240 +2,240 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Quentin Donnellan</title>
-    <link>www.qdonnellan.com/posts/</link>
+    <link>/posts/</link>
     <description>Recent content on Quentin Donnellan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 22 May 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="www.qdonnellan.com/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Handling Strong Opinions, Disagreements as a High Functioning Team</title>
-      <link>www.qdonnellan.com/handling-disagreements-as-a-high-functioning-team/</link>
+      <link>/handling-disagreements-as-a-high-functioning-team/</link>
       <pubDate>Tue, 22 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>www.qdonnellan.com/handling-disagreements-as-a-high-functioning-team/</guid>
+      <guid>/handling-disagreements-as-a-high-functioning-team/</guid>
       <description>We&amp;rsquo;ve all been here: there&amp;rsquo;s a heated argument on a team, one person is passionately proselytizing about the supposed right way to do something while another has literally become red faced holding a completely opposite, and equally passionate opinion. Others in the room are intentionally silent, just hoping for the episode to be over so that they can get back to their work.
 A few weeks go by and you&amp;rsquo;ve mostly forgotten about the experience until something goes wrong with your product which conclusively proves one side of that argument was right &amp;mdash; a flurry of &amp;ldquo;I told you so&amp;rsquo;s&amp;rdquo; are issued under-breath all while team morale just sinks one notch lower.</description>
     </item>
     
     <item>
       <title>Getting Accepted to Georgia Tech&#39;s Online Master&#39;s Program in Computer Science (OMSCS)</title>
-      <link>www.qdonnellan.com/getting-accepted-to-omscs/</link>
+      <link>/getting-accepted-to-omscs/</link>
       <pubDate>Fri, 11 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>www.qdonnellan.com/getting-accepted-to-omscs/</guid>
+      <guid>/getting-accepted-to-omscs/</guid>
       <description>Hooray! I got accepted into Georgia Tech&amp;rsquo;s OMSCS program! Thanks for all the kind words of encouragement along the way, and as promised I wanted to take a few minutes to lay out how I successfully applied to this program.
 Honestly I&amp;rsquo;m a bit surprised that I got in &amp;mdash; I considered my chances solidly &amp;ldquo;on the fence&amp;rdquo;. In my opinion there were a few major strikes against my application:</description>
     </item>
     
     <item>
       <title>The Hardest Problems in Your Software Career Will Not Be Technical</title>
-      <link>www.qdonnellan.com/the-hardest-problems-are-not-technical/</link>
+      <link>/the-hardest-problems-are-not-technical/</link>
       <pubDate>Wed, 14 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>www.qdonnellan.com/the-hardest-problems-are-not-technical/</guid>
+      <guid>/the-hardest-problems-are-not-technical/</guid>
       <description>I see so many software engineers out there worrying about what skills they need to pick up to stay competitive in their industries. Should I learn React? Will I be left behind if I don&amp;rsquo;t fully understand the changes in ES6? Should I pick up C# even through I already know Java? Machine Learning, cryptocurrency, buzz-word, buzz-word, buzz, buzz, blegh!
 Look, I&amp;rsquo;m not discounting the need to stay on top of your technical game - it&amp;rsquo;s important to have a competitive skill base.</description>
     </item>
     
     <item>
       <title>Is Georgia Tech&#39;s Online Master&#39;s in Computer Science Worth It?</title>
-      <link>www.qdonnellan.com/is-omscs-worth-it/</link>
+      <link>/is-omscs-worth-it/</link>
       <pubDate>Wed, 07 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>www.qdonnellan.com/is-omscs-worth-it/</guid>
+      <guid>/is-omscs-worth-it/</guid>
       <description>Last week I submitted my application to Georgia Tech’s online Master’s program in Computer Science (OMSCS). I’ve been working toward that moment for the last year, preparing myself by taking many online courses in computer science fundamentals and carving out 15-20 hours each week for self-study. I’ve also gone deep into questioning whether a master&amp;rsquo;s degree is worth it, and whether this offering from Georgia Tech specifically is worth it for me.</description>
     </item>
     
     <item>
       <title>Practicing Mindfulness as a Husband and Father</title>
-      <link>www.qdonnellan.com/mindfulness-as-husband-and-father/</link>
+      <link>/mindfulness-as-husband-and-father/</link>
       <pubDate>Fri, 16 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>www.qdonnellan.com/mindfulness-as-husband-and-father/</guid>
+      <guid>/mindfulness-as-husband-and-father/</guid>
       <description>Over the last year I&amp;rsquo;ve spent quite a bit of time thinking about my future, dissecting probably every possible career arc for a software engineer. Along the way I&amp;rsquo;ve consumed countless articles on everything from technical guides on specific software practices to business advice for executives, and for the most part I&amp;rsquo;ve been perpetually pensive on the subject, even at home.
 A few months ago I came across an article in the Harvard Business Review: If you Aspire to be a Great Leader, Be Present.</description>
     </item>
     
     <item>
       <title>Software Engineers: Embrace Recruiters on LinkedIn</title>
-      <link>www.qdonnellan.com/embrace-recruiters-on-linkedin/</link>
+      <link>/embrace-recruiters-on-linkedin/</link>
       <pubDate>Sat, 20 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>www.qdonnellan.com/embrace-recruiters-on-linkedin/</guid>
+      <guid>/embrace-recruiters-on-linkedin/</guid>
       <description>For some reason, I was bombarded with connection requests and recruiter InMail this week on LinkedIn. For a moment, I had to suppress the temptation to be mad - a little nugget placed somewhere in my subconscious over the years by disparaging colleagues who loathe recruiters and love to talk about that fact. For as many interactions I have with recruiters I read at least as many posts by software engineers lamenting the very presence of those interactions.</description>
     </item>
     
     <item>
       <title>Zero to CTO: An Idiot&#39;s Guide to Climbing the Software Ladder</title>
-      <link>www.qdonnellan.com/zero-to-cto/</link>
+      <link>/zero-to-cto/</link>
       <pubDate>Mon, 25 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>www.qdonnellan.com/zero-to-cto/</guid>
+      <guid>/zero-to-cto/</guid>
       <description>About a year ago I started preparing myself for a master&amp;rsquo;s degree in Computer Science. Along the way I&amp;rsquo;ve been asking myself a ton of questions about my future: Is a master&amp;rsquo;s degree worth it? Can I advance my career with it? What does an advanced career in software engineering look like? What&amp;rsquo;s my end goal? What do I want to be when I grow up? I&amp;rsquo;ve been busy browsing job titles, job postings, resumes, LinkedIn profiles, blog posts, career guides, you name it: all in an effort to map out possible careers paths in this industry.</description>
     </item>
     
     <item>
       <title>Finding Time For Coursework</title>
-      <link>www.qdonnellan.com/blog/2017/12/05/finding-time-for-coursework.html/</link>
+      <link>/blog/2017/12/05/finding-time-for-coursework.html/</link>
       <pubDate>Tue, 05 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>www.qdonnellan.com/blog/2017/12/05/finding-time-for-coursework.html/</guid>
+      <guid>/blog/2017/12/05/finding-time-for-coursework.html/</guid>
       <description>Seven months ago I began preparing myself for admission into Georgia Tech&amp;rsquo;s online M.S. in Computer Science program. During those months I&amp;rsquo;ve completed courses in Networking, Algorithms, Computer Architecture, Machine Learning, and Neural Networks; I&amp;rsquo;m also currently enrolled in Deep Learning and Parallel Programming courses. While the content has been challenging, the most difficult task has been finding time to take these courses without cutting into my precious family moments.</description>
     </item>
     
     <item>
       <title>Internal Hackathons the Lean Way</title>
-      <link>www.qdonnellan.com/blog/2017/11/04/internal-hackathons-the-lean-way.html/</link>
+      <link>/blog/2017/11/04/internal-hackathons-the-lean-way.html/</link>
       <pubDate>Sat, 04 Nov 2017 00:00:00 +0000</pubDate>
       
-      <guid>www.qdonnellan.com/blog/2017/11/04/internal-hackathons-the-lean-way.html/</guid>
+      <guid>/blog/2017/11/04/internal-hackathons-the-lean-way.html/</guid>
       <description>One of the many awesome reasons why I love working as a software engineer at The Container Store is that once every other month we take time out of our busy days to compete in a 24-hour hackathon. We self-organize into teams around some project we think is loosely related to our business and a day later we demonstrate whatever we were able to cobble together.
 I&amp;rsquo;ve been fortunate to have something of a winning streak over the last few hackathons, but I don&amp;rsquo;t consider our teams to have been a collection of engineering superstars - instead I believe that we&amp;rsquo;ve stumbled upon a winning recipe: treat hackathons just like a lean startup.</description>
     </item>
     
     <item>
       <title>Course Review: Algorithms Part 1 (Coursera)</title>
-      <link>www.qdonnellan.com/blog/2017/06/28/course-review-algorithms-part-1.html/</link>
+      <link>/blog/2017/06/28/course-review-algorithms-part-1.html/</link>
       <pubDate>Wed, 28 Jun 2017 00:00:00 +0000</pubDate>
       
-      <guid>www.qdonnellan.com/blog/2017/06/28/course-review-algorithms-part-1.html/</guid>
+      <guid>/blog/2017/06/28/course-review-algorithms-part-1.html/</guid>
       <description>Basic Information  Lectures: https://www.coursera.org/learn/algorithms-part1 Textbook (optional): on amazon &amp;ldquo;Booksite&amp;rdquo; (optional): http://algs4.cs.princeton.edu/home/ Author: Robert Sedgewick, Princeton University Cost: FREE (unless you purchase the Texbook, which I recommend) Time to complete: 6 weeks @10hr/week Prerequisites: At least a year or so of programming under your belt. Topics: Data Structures and Algorithms Programming Language: Java How grading works: There are a very small number of in-video quizzes that are multiple choice and not required.</description>
     </item>
     
     <item>
       <title>Course Review: Introduction to Computer Networking - Self Paced (Stanford)</title>
-      <link>www.qdonnellan.com/blog/2017/06/28/course-review-networking-sp.html/</link>
+      <link>/blog/2017/06/28/course-review-networking-sp.html/</link>
       <pubDate>Wed, 28 Jun 2017 00:00:00 +0000</pubDate>
       
-      <guid>www.qdonnellan.com/blog/2017/06/28/course-review-networking-sp.html/</guid>
+      <guid>/blog/2017/06/28/course-review-networking-sp.html/</guid>
       <description>Basic Information  Url: https://lagunita.stanford.edu/courses/Engineering/Networking-SP/SelfPaced/about Author: Philip Levis and Nick McKeown, Stanford University Cost: FREE Time to complete: 8-10 weeks @10hr/week Prerequisites: At least a year or so of programming under your belt. Topics: Data Structures and Algorithms Programming Language: Java How grading works: There are a very small number of in-video quizzes that are multiple choice and not required. Then you have 5 programming assignments that are graded on correctness, memory usage, and time complexity.</description>
     </item>
     
     <item>
       <title>Finding a Home on the Software Team at The Container Store</title>
-      <link>www.qdonnellan.com/blog/2017/05/24/finding-a-home-at-the-container-store.html/</link>
+      <link>/blog/2017/05/24/finding-a-home-at-the-container-store.html/</link>
       <pubDate>Wed, 24 May 2017 00:00:00 +0000</pubDate>
       
-      <guid>www.qdonnellan.com/blog/2017/05/24/finding-a-home-at-the-container-store.html/</guid>
+      <guid>/blog/2017/05/24/finding-a-home-at-the-container-store.html/</guid>
       <description>I never thought I&amp;rsquo;d be working in Retail. Retail. Don&amp;rsquo;t get me wrong - I had nothing against the industry, I just never thought I would be working in it myself. But here I am.
 How did I get here? Well, for the last five years I&amp;rsquo;ve been a software developer playing the ever entertaining game of &amp;ldquo;startup roulette&amp;rdquo;. If you&amp;rsquo;ve ever played this game, you know exactly what I mean when I say it&amp;rsquo;s the most exhilarating, exhausting, rewarding, demanding, damning thing I&amp;rsquo;ve done.</description>
     </item>
     
     <item>
       <title>Hacking My Way Into Georgia Tech&#39;s OMSCS</title>
-      <link>www.qdonnellan.com/blog/2017/05/01/hacking-into-omscs.html/</link>
+      <link>/blog/2017/05/01/hacking-into-omscs.html/</link>
       <pubDate>Mon, 01 May 2017 00:00:00 +0000</pubDate>
       
-      <guid>www.qdonnellan.com/blog/2017/05/01/hacking-into-omscs.html/</guid>
+      <guid>/blog/2017/05/01/hacking-into-omscs.html/</guid>
       <description>Five years ago I signed up for an online web development class on a website called Udacity. At the time I was a high school Calculus teacher and I was looking for a better way to deliver my lessons. I figured I could learn how to build a website and then create a webapp for my classes; which is exactly what I did. What followed has been a roller coaster of an adventure through teaching, ed-tech startups, and software development to where I am today: a full-stack software engineer at The Container Store.</description>
     </item>
     
     <item>
       <title>Inside The SpiderOak Web: Our CMS</title>
-      <link>www.qdonnellan.com/blog/2016/08/30/inside-the-spideroak-web-our-cms.html/</link>
+      <link>/blog/2016/08/30/inside-the-spideroak-web-our-cms.html/</link>
       <pubDate>Tue, 30 Aug 2016 00:00:00 +0000</pubDate>
       
-      <guid>www.qdonnellan.com/blog/2016/08/30/inside-the-spideroak-web-our-cms.html/</guid>
+      <guid>/blog/2016/08/30/inside-the-spideroak-web-our-cms.html/</guid>
       <description>This post is the first of hopefully many through which I shed some light on the design and implementation of the SpiderOak web apps. Our web ecosystem has evolved over the years and is certainly something quite unique to SpiderOak. I make no claim that what we&amp;rsquo;ve built in our CMS is proper or even a solution we&amp;rsquo;d land on if we decided to do it all over again. But it is what we have and it works quite well for us.</description>
     </item>
     
     <item>
       <title>Building Web Analytics at SpiderOak</title>
-      <link>www.qdonnellan.com/blog/2016/01/13/building-web-analytics-at-spideroak.html/</link>
+      <link>/blog/2016/01/13/building-web-analytics-at-spideroak.html/</link>
       <pubDate>Wed, 13 Jan 2016 00:00:00 +0000</pubDate>
       
-      <guid>www.qdonnellan.com/blog/2016/01/13/building-web-analytics-at-spideroak.html/</guid>
+      <guid>/blog/2016/01/13/building-web-analytics-at-spideroak.html/</guid>
       <description>A few weeks ago, SpiderOak President and CMO Mike McCamon posted an article on how we ditched Google analytics in favor of our own home-brewed solution. That post generated a good discussion on Hacker News where many asked how we implemented it, and why we didn&amp;rsquo;t just choose something off the shelf. As the person responsible for the implementation, I wanted to take a moment to reveal some of the insights behind the technical decisions we made.</description>
     </item>
     
     <item>
       <title>Six Steps to Better Communication as a Software Developer</title>
-      <link>www.qdonnellan.com/blog/2015/12/12/six-steps-to-better-communication-as-a-software-developer.html/</link>
+      <link>/blog/2015/12/12/six-steps-to-better-communication-as-a-software-developer.html/</link>
       <pubDate>Sat, 12 Dec 2015 08:00:00 +0000</pubDate>
       
-      <guid>www.qdonnellan.com/blog/2015/12/12/six-steps-to-better-communication-as-a-software-developer.html/</guid>
+      <guid>/blog/2015/12/12/six-steps-to-better-communication-as-a-software-developer.html/</guid>
       <description>I&amp;rsquo;ve long held that communication is the most important skill for a software developer. Here are some quick-hitting tips that have helped me become a better communicator.
 1. Be responsive but honest Reply to emails as soon as you get them, but don&amp;rsquo;t give quick answers for the sake of having a quick answer to give. It&amp;rsquo;s important to let the other party know that you&amp;rsquo;ve acknowledged their request and (if you don&amp;rsquo;t have an answer ready) that you&amp;rsquo;ll get back with them when you&amp;rsquo;ve had more time to research.</description>
     </item>
     
     <item>
       <title>Keeping Code Clean is like Maintaining a Garden</title>
-      <link>www.qdonnellan.com/blog/2015/09/11/keeping-code-clean-is-like-maintaining-a-garden.html/</link>
+      <link>/blog/2015/09/11/keeping-code-clean-is-like-maintaining-a-garden.html/</link>
       <pubDate>Fri, 11 Sep 2015 00:00:00 +0000</pubDate>
       
-      <guid>www.qdonnellan.com/blog/2015/09/11/keeping-code-clean-is-like-maintaining-a-garden.html/</guid>
+      <guid>/blog/2015/09/11/keeping-code-clean-is-like-maintaining-a-garden.html/</guid>
       <description>A few years back I installed a sprinkler system in my future wife&amp;rsquo;s backyard. We also built a small little retainer wall for a raised planter and plopped down a couple trees. I was very happy with the result, and on day zero it looked great.
 For whatever reason, we&amp;rsquo;ve done a fairly good job of maintaining one side of the garden while we&amp;rsquo;ve let the other side go wild, and the other day, while I was picking weeds on the &amp;ldquo;good&amp;rdquo; side I concocted this analogy: maintaining a garden is not much different from keeping a codebase clean.</description>
     </item>
     
     <item>
       <title>Three Thoughts From Tonight&#39;s DFW Scrum Meetup</title>
-      <link>www.qdonnellan.com/blog/2015/08/18/three-thoughts-from-tonights-dfw-scrum-meetup.html/</link>
+      <link>/blog/2015/08/18/three-thoughts-from-tonights-dfw-scrum-meetup.html/</link>
       <pubDate>Tue, 18 Aug 2015 00:00:00 +0000</pubDate>
       
-      <guid>www.qdonnellan.com/blog/2015/08/18/three-thoughts-from-tonights-dfw-scrum-meetup.html/</guid>
+      <guid>/blog/2015/08/18/three-thoughts-from-tonights-dfw-scrum-meetup.html/</guid>
       <description>I&amp;rsquo;ve got a flight to Kansas City to meet the SpiderOak marketing team tomorrow morning, so I&amp;rsquo;ll make this quick! I just got back home from my first DFW Scrum meetup, and I highly recommend it to any software guys in the area (they meet on the 3rd Tuesday of each month, in Addison and Southlake concurrently).
 I had originally planned to fly out to Kansas City late tonight, but a couple weeks ago I noticed that this meetup group was going to be hosting a talk on &amp;ldquo;Release Process&amp;rdquo; and figured, as I&amp;rsquo;ve been tasked with the role of release manager for the SpiderOak web team, this would be a hugely beneficial experience.</description>
     </item>
     
     <item>
       <title>From High School Teacher to Software Developer in 2 Years</title>
-      <link>www.qdonnellan.com/blog/2015/08/16/from-high-school-teacher-to-software-developer-in-2-years.html/</link>
+      <link>/blog/2015/08/16/from-high-school-teacher-to-software-developer-in-2-years.html/</link>
       <pubDate>Sun, 16 Aug 2015 00:00:00 +0000</pubDate>
       
-      <guid>www.qdonnellan.com/blog/2015/08/16/from-high-school-teacher-to-software-developer-in-2-years.html/</guid>
+      <guid>/blog/2015/08/16/from-high-school-teacher-to-software-developer-in-2-years.html/</guid>
       <description>More often than not, when someone hears I that I used to be a high school teacher they ask me &amp;ldquo;why did you go from teaching to web development?&amp;rdquo; That&amp;rsquo;s a tough question to answer and eventually I&amp;rsquo;ll write a succinct narrative on that topic. For now I&amp;rsquo;d rather address the overview of how I made the transition.
 What I knew before I started For this journey to make sense, it&amp;rsquo;s probably required that you understand what I knew before I started.</description>
     </item>
     
     <item>
       <title>API Testing With VCR.py - Why Have I Not Done This Before?</title>
-      <link>www.qdonnellan.com/blog/2015/08/15/api-testing-with-vcrpy-why-have-i-not-done-this-before.html/</link>
+      <link>/blog/2015/08/15/api-testing-with-vcrpy-why-have-i-not-done-this-before.html/</link>
       <pubDate>Sat, 15 Aug 2015 00:00:00 +0000</pubDate>
       
-      <guid>www.qdonnellan.com/blog/2015/08/15/api-testing-with-vcrpy-why-have-i-not-done-this-before.html/</guid>
+      <guid>/blog/2015/08/15/api-testing-with-vcrpy-why-have-i-not-done-this-before.html/</guid>
       <description>A few months ago a co-worker suggested that I mock my API tests using VCR.py (here&amp;rsquo;s a link to the library on github). At the time, I had no idea what VCR.py was, or how to use it; I was, however, totally aware that my API tests were taking too long and causing needless hits to our various third party (and internal) API services. So I looked into this VCR.</description>
     </item>
     
     <item>
       <title>My First Big Software Startup Failure</title>
-      <link>www.qdonnellan.com/blog/2015/07/23/my-first-big-software-startup-failure.html/</link>
+      <link>/blog/2015/07/23/my-first-big-software-startup-failure.html/</link>
       <pubDate>Thu, 23 Jul 2015 00:00:00 +0000</pubDate>
       
-      <guid>www.qdonnellan.com/blog/2015/07/23/my-first-big-software-startup-failure.html/</guid>
+      <guid>/blog/2015/07/23/my-first-big-software-startup-failure.html/</guid>
       <description>As much as I enjoy reading about young people&amp;rsquo;s success in the software startup space, I never can get enough of people&amp;rsquo;s failures. After all, you learn more from your failures than from anything else. So here&amp;rsquo;s a bit on mine.
 Back in 2012 I started learning web development for the sole purpose of building myself a better teacher website (I was teaching high school math/science/engineering at the time). After taking Udacity&amp;rsquo;s inaugural &amp;ldquo;web development&amp;rdquo; course, I immediately began cranking out a series of iterations toward my goal of making my teacher website better.</description>
     </item>
     
     <item>
       <title>One Strange Experience with Salary Negotiation</title>
-      <link>www.qdonnellan.com/blog/2015/07/22/one-strange-experience-with-salary-negotiation.html/</link>
+      <link>/blog/2015/07/22/one-strange-experience-with-salary-negotiation.html/</link>
       <pubDate>Wed, 22 Jul 2015 00:00:00 +0000</pubDate>
       
-      <guid>www.qdonnellan.com/blog/2015/07/22/one-strange-experience-with-salary-negotiation.html/</guid>
+      <guid>/blog/2015/07/22/one-strange-experience-with-salary-negotiation.html/</guid>
       <description>Earlier this year I concluded a 5-month long job search by accepting an offer to work for my current company, SpiderOak. During that search I had been anxious to try my hand at salary negotiation, especially after eating through much of Patrick McKenzie&amp;rsquo;s material on the subject. By the end of the search I had rejected a few offers and negotiated two. One of those negotiations was successful and one was, well, strange.</description>
     </item>
     
     <item>
       <title>Moving to Jekyll</title>
-      <link>www.qdonnellan.com/blog/2015/07/18/moving-to-jekyll.html/</link>
+      <link>/blog/2015/07/18/moving-to-jekyll.html/</link>
       <pubDate>Sat, 18 Jul 2015 00:00:00 +0000</pubDate>
       
-      <guid>www.qdonnellan.com/blog/2015/07/18/moving-to-jekyll.html/</guid>
+      <guid>/blog/2015/07/18/moving-to-jekyll.html/</guid>
       <description>That&amp;rsquo;s right - I&amp;rsquo;ve decided to migrate my blog platform once again. There&amp;rsquo;s got to be some right of passage to becoming a senior web developer which involves having used at least 10 different platforms for your personal blog/website. Mission accomplished.
 At any rate - here I am. Why? For starters I&amp;rsquo;m already rather horrible at actually writing content, so I wanted to use a platform that took care of as much of the hosting/styling/structuring as possible.</description>
     </item>
     
     <item>
       <title>Working From Home with a Newborn - The First Three Months</title>
-      <link>www.qdonnellan.com/blog/2014/11/30/working-from-home-with-a-newborn-the-first-three-months.html/</link>
+      <link>/blog/2014/11/30/working-from-home-with-a-newborn-the-first-three-months.html/</link>
       <pubDate>Sun, 30 Nov 2014 00:00:00 +0000</pubDate>
       
-      <guid>www.qdonnellan.com/blog/2014/11/30/working-from-home-with-a-newborn-the-first-three-months.html/</guid>
+      <guid>/blog/2014/11/30/working-from-home-with-a-newborn-the-first-three-months.html/</guid>
       <description>Last November my wife and I discovered that we were pregnant with our first child; the following February I decided to leave my job as a high school teacher to pursue my new passion of working as a software developer in the education field. Ideally this job would allow me to raise a child while working from the house. I accepted a &amp;ldquo;remote&amp;rdquo; position at the end of March that year and began working full-time from my home office in June as an engineer at Burke Software and Consulting.</description>
     </item>
     
