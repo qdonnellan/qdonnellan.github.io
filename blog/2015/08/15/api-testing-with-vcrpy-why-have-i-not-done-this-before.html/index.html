@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>API Testing With VCR.py - Why Have I Not Done This Before? | Quentin Donnellan</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    <link rel="stylesheet" href="/css/styles-custom.css" />
+<link rel="stylesheet" href="/css/cs-transcript.css" />
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800" rel="stylesheet">
+<link href="//cdn.bootcss.com/highlight.js/9.12.0/styles/vs.min.css" rel="stylesheet">
+
+<script>
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-39528195-1', 'auto');
+    ga('send', 'pageview');
+</script>
+  </head>
+
+  <body>
+    <nav>
+    <ul class="menu">
+      
+      <li><a href="/">Home</a></li>
+      
+      <li><a href="/posts">Posts</a></li>
+      
+    </ul>
+    <hr/>
+    </nav>
+
+<div class="article-meta">
+    <h1><span class="title">API Testing With VCR.py - Why Have I Not Done This Before?</span></h1>
+    
+    <h2 class="date">August 15, 2015</h2>
+</div>
+
+<main>
+    
+
+<p>A few months ago a co-worker suggested that I mock my API tests using <strong>VCR.py</strong> (<a href="https://github.com/kevin1024/vcrpy">here&rsquo;s a link to the library on github</a>). At the time, I had no idea what <strong>VCR.py</strong> was, or how to use it; I was, however, totally aware that my API tests were taking too long and causing needless hits to our various third party (and internal) API services. So I looked into this <strong>VCR.py</strong> thing - and I just had to write a blog post about it because it&rsquo;s that awesome.</p>
+
+<h2 id="vcr-mocks-calls-to-your-api-s-automatically">VCR mocks calls to your API&rsquo;s - automatically</h2>
+
+<p>In the past, I&rsquo;ve played around with mocking API calls by manually saving an expected API response to a json file and loading that file instead of making the actual request. This process was clunky and generally resulted in me not wanting to mock my API calls. So I didn&rsquo;t. I just made actual API calls during my tests.</p>
+
+<p>VCR effectively takes all the hassle out of creating mock API responses, because it automatically generates those hard coded files! Essentially, after your tests run the first time, any HTTP request that is generated is caught by VCR.py and the associated response is saved in a local file. Every test thereafter will use the saved file (called a <code>cassette</code>) and your tests will no longer generate real HTTP requests. It&rsquo;s awesome.</p>
+
+<h2 id="getting-started-with-vcr-py">Getting Started with VCR.py</h2>
+
+<p>First, install VCR.py from pip,</p>
+
+<pre><code class="language-bash">pip install vcrpy
+</code></pre>
+
+<p>Then, just decorate any test that issues an HTTP request with the <code>use_cassette</code> decorator</p>
+
+<pre><code class="language-python">import unittest
+import vcr
+import requests
+
+
+class MyTest(unittest.TestCase):
+
+    @vcr.use_cassette('test-stupid-request.yml')
+    def test_stupid_request(self):
+        &quot;&quot;&quot;testing a stupid simple example of using vcr&quot;&quot;&quot;
+        response = requests.get('http://qdonnellan.com')
+        self.assertEqual(response.status_code, 200)
+</code></pre>
+
+<p>The above is a really simple example of how vcr works, but if you understand it you should be able to extend it to whatever particular use-case you need. Now, what&rsquo;s going on is I have a really simple test which asserts the response from my website <code>http://qdonnellan.com</code> is an <code>HTTP 200</code>. So I make the call, and test the assertion. However, I&rsquo;m decorating the entire test with this little jewel:</p>
+
+<pre><code class="language-python">    @vcr.use_cassette('test-stupid-request.yml')
+</code></pre>
+
+<p>What&rsquo;s going on is that <strong>VCR.py</strong> let&rsquo;s the request happen the first time, but then it records that request (and it&rsquo;s response) in a local .yml file. The second time I run the test, no HTTP request is made, instead vcr mocks the request by using the saved cassette. The proof is in the pudding: I have the exact code above saved in a file called <code>test_vcrexample</code>, and I&rsquo;m going to test it using <a href="https://nose.readthedocs.org/en/latest/">Nose</a>:</p>
+
+<p>First Test:</p>
+
+<pre><code>$ nosetests test_vcrexample
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.337s
+
+OK
+</code></pre>
+
+<p>Second Test (using cassette):</p>
+
+<pre><code>$ nosetests test_vcrexample
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.015s
+
+OK
+</code></pre>
+
+<p>Now, making a request to this super lightweight blog server is not very time consuming, but that second request, since it never had to leave my machine is <strong>22 times faster</strong>; now imagine using these mock cassettes on calls to actual API services that take several seconds to complete.</p>
+
+<h2 id="complete-example-using-stripe">Complete Example Using Stripe</h2>
+
+<p>Not convinced by this silly little test, well let&rsquo;s look at a more detailed example of a test that requires several calls to a real API service. In this case let&rsquo;s use <a href="https://stripe.com/docs/api#intro">Stripe&rsquo;s API</a> (because it is one of my favorite)</p>
+
+<p>In this example I&rsquo;ve got a small little Stripe client that creates customers and charges cards. I want to write a functional test that proves all my methods work together, which will require several API calls to complete.</p>
+
+<pre><code class="language-python">&quot;&quot;&quot; simple_stripe_client.py - A simple Stripe Client, duh &quot;&quot;&quot;
+
+import stripe
+
+stripe.api_key = 'sk_test_mYstRIpeApiTestKeynoTsharing'
+
+
+class MyStripeClient(object):
+    &quot;&quot;&quot;a simple stripe client for making customers and subscribing
+    them to plans&quot;&quot;&quot;
+
+    def __init__(self, customer_email):
+        self.customer = self.create_customer(customer_email)
+
+    @staticmethod
+    def create_customer(customer_email):
+        &quot;&quot;&quot;create a customer on stripe&quot;&quot;&quot;
+        return stripe.Customer.create(email=customer_email)
+
+    def save_card(self, card_dict):
+        &quot;&quot;&quot;save the card to the customer's account on Stripe&quot;&quot;&quot;
+        return self.customer.sources.create(source=card_dict)
+
+    def subscribe(self, plan_id):
+        &quot;&quot;&quot;subscribe this customer to the plan with the given id&quot;&quot;&quot;
+        return self.customer.subscriptions.create(plan=plan_id)
+</code></pre>
+
+<p>(And the test file)</p>
+
+<pre><code class="language-python">&quot;&quot;&quot; test_stripe_client.py - Test our simple Stripe client &quot;&quot;&quot;
+
+import unittest
+import vcr
+from simple_stripe_client import MyStripeClient
+
+
+class MyStripeClientTest(unittest.TestCase):
+    &quot;&quot;&quot;testing my stupid simple stripe client&quot;&quot;&quot;
+
+    @vcr.use_cassette('test-subscribe.yml')
+    def test_subscribe(self):
+        &quot;&quot;&quot;a customer with a valid card should be able to subscribe to our
+        basic-plan, which is already on file at Stripe&quot;&quot;&quot;
+        client = MyStripeClient(&quot;test@example.com&quot;)
+        client.save_card({
+            &quot;object&quot;: &quot;card&quot;,
+            &quot;currency&quot;: &quot;usd&quot;,
+            &quot;number&quot;: '4242424242424242',
+            &quot;exp_month&quot;: &quot;09&quot;,
+            &quot;exp_year&quot;: &quot;2019&quot;
+        })
+        response = client.subscribe('basic-plan')
+        self.assertEqual(response['status'], 'active')
+</code></pre>
+
+<p>So in this test I&rsquo;m creating a customer, adding a card to that customer, and subscribing that customer to a plan. That&rsquo;s 3 API calls to our Stripe account. Let&rsquo;s see what happens when I run this test the first time:</p>
+
+<pre><code>$ nosetests test_stripe_client
+.
+----------------------------------------------------------------------
+Ran 1 test in 1.525s
+
+OK
+</code></pre>
+
+<p>One-and-a-half seconds is not too bad for 1 test; but if your billing system has a hundred or so of these tests, that could take several minutes to run. Let&rsquo;s try running the exact same test a second time (I&rsquo;ve changed nothing, I&rsquo;m literally running this test right after the first test - remember all of those API requests have been saved in a cassette for me to replay any time).</p>
+
+<pre><code>$ nosetests test_stripe_client
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.021s
+
+OK
+</code></pre>
+
+<p>Whoa! That&rsquo;s over <strong>72 times faster</strong> - because we aren&rsquo;t making any HTTP requests the second time around.</p>
+
+<h2 id="it-s-not-just-saving-time">It&rsquo;s not just saving time</h2>
+
+<h3 id="entire-responses-are-saved-as-a-transcript">Entire responses are saved as a transcript</h3>
+
+<p>I don&rsquo;t know how everyone else writes API tests, but when I first get to it I&rsquo;m not even sure what the API responses are going to look like (and documentation is not always clear). So the first time I write a test I literally print the entire response to the console - I&rsquo;m never surprised to see the myriad different ways developers like to represent simple things like &ldquo;status code&rdquo;</p>
+
+<blockquote>
+<p>Why is my test not working??? <strong>status_code</strong> should be 200!!!</p>
+
+<p>(PRINTS RESPONSE TO CONSOLE)</p>
+
+<p>Oh freaking hell, it&rsquo;s <strong>http_int_status</strong> in this API, good to know</p>
+</blockquote>
+
+<p>But when you save every response to a cassette file, you can read the entire response, in its entirety from a text editor. This is awesome.</p>
+
+<h3 id="offline-testing-works">Offline testing works</h3>
+
+<p>The next time I&rsquo;m flying to meet the team, I can still run all my functional tests at 40,000 feet - as long as they have an associated cassette that was run before I left my home office. New tests never need HTTP, so they work anywhere.</p>
+
+<h2 id="why-have-i-not-used-this-before">Why have I not used this before?</h2>
+
+<p>I wish I had found <strong>VCR.py</strong> many years ago when I first starting writing tests that interacted with API&rsquo;s, and I strongly recommend anyone who is working on a python project that does interact with API&rsquo;s to use a mocking library that is at least as good as this one.</p>
+
+<p>A huge thanks to the folks who wrote this library, you&rsquo;ve changed the way I write tests!</p>
+
+</main>
+
+  <footer>
+  <script src="//cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+<script src="//cdn.bootcss.com/highlight.js/9.12.0/languages/r.min.js"></script>
+
+<script>
+    hljs.configure({ languages: [] });
+    hljs.initHighlightingOnLoad();
+</script>
+  
+  <hr/>
+  &copy; <a href="https://qdonnellan.com">Quentin Donnellan</a> 2019 | <a href="https://github.com/qdonnellan">GitHub</a> | <a href="https://linkedin.com/in/qdonnellan">LinkedIn</a>
+  
+  </footer>
+  </body>
+</html>

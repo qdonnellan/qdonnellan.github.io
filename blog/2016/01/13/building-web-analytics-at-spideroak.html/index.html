@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Building Web Analytics at SpiderOak | Quentin Donnellan</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    <link rel="stylesheet" href="/css/styles-custom.css" />
+<link rel="stylesheet" href="/css/cs-transcript.css" />
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800" rel="stylesheet">
+<link href="//cdn.bootcss.com/highlight.js/9.12.0/styles/vs.min.css" rel="stylesheet">
+
+<script>
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-39528195-1', 'auto');
+    ga('send', 'pageview');
+</script>
+  </head>
+
+  <body>
+    <nav>
+    <ul class="menu">
+      
+      <li><a href="/">Home</a></li>
+      
+      <li><a href="/posts">Posts</a></li>
+      
+    </ul>
+    <hr/>
+    </nav>
+
+<div class="article-meta">
+    <h1><span class="title">Building Web Analytics at SpiderOak</span></h1>
+    
+    <h2 class="date">January 13, 2016</h2>
+</div>
+
+<main>
+    
+
+<p>A few weeks ago, SpiderOak President and CMO Mike McCamon posted an <a href="https://spideroak.com/articles/yeah-we-ditched-google">article</a> on how we ditched Google analytics in favor of our own <em>home-brewed</em> solution. That post
+generated a good discussion on Hacker News where many asked how we implemented
+it, and why we didn&rsquo;t just choose something off the shelf. As the
+person responsible for the implementation, I wanted to take a moment to reveal
+some of the insights behind the technical decisions we made.</p>
+
+<h3 id="why-write-something-ourselves">Why write something ourselves?</h3>
+
+<p>Web analytics is not really a new field; in implementing
+our own analytics solution it&rsquo;s not like we&rsquo;re doing something that hasn&rsquo;t been
+done thousands of times before. I believe my brother said it best:</p>
+
+<blockquote>
+<p>&ldquo;Dude, don&rsquo;t implement your own analytics solution.&rdquo;</p>
+
+<p>&ndash; <em>My brother</em></p>
+</blockquote>
+
+<p>My brother is a very smart guy, and I believe that to be great advice to any
+company out there trying to do what we&rsquo;ve done. I&rsquo;ve extended that
+advice to the following:</p>
+
+<ol>
+<li>Don&rsquo;t implement your own analytics.</li>
+<li>If you can&rsquo;t do #1, then make it as simple as possible.</li>
+</ol>
+
+<p>Before we wrote any of our own analytics code
+we worked hard to answer the question: <strong>Is there something out there that we
+could just use today?</strong> It is silly to re-invent something
+if you really don&rsquo;t have to. In fact, it&rsquo;s not just silly, it&rsquo;s expensive. Our web
+team is very small and we don&rsquo;t have much time to work on things that don&rsquo;t
+improve the bottom line.</p>
+
+<h3 id="technical-requirements">Technical requirements</h3>
+
+<p>We set out looking for something that already existed. These are the things we decided were important:</p>
+
+<ol>
+<li>Self-hosted: none of the data we collect could ever be sent to a third party.</li>
+<li>The solution should re-use technology that currently exists in our
+stack: PostgreSQL, Python, Django, Go, InfluxDB (which we were
+already using for system monitoring), and Redis.</li>
+</ol>
+
+<p>I honestly didn&rsquo;t think that these requirements were that strict; many companies
+out there use some combination of Python/Postgres/Redis, so I assumed that there
+would be a mature, open-sourced, self-hosted solution in the world that we could
+used.</p>
+
+<p>There wasn&rsquo;t. Piwik was encouraging, but we really, <em>really</em> didn&rsquo;t want
+to stand up a PHP server on our ecosystem. (In fact, if you add <strong>&ldquo;no PHP&rdquo;</strong> to the requirements list above,
+you kill nearly all open source analytics solutions!)</p>
+
+<p>We concluded that we had to write something ourselves.</p>
+
+<h3 id="influxdb-the-early-leader">InfluxDB: the early leader</h3>
+
+<p>We were already using InfluxDB for some internal server monitoring, so my first thought
+was to just spin off a new InfluxDB instance and send AJAX post requests to it via our
+frotnend.</p>
+
+<p>We quickly realized a couple issues:</p>
+
+<ol>
+<li>At the time, there was no way of preventing a user from issuing DELETE requests on behalf
+of our web application (since DELETE shared the same permissions as POST).</li>
+<li>At the time, InfluxDB documentation was incomplete and rapidly changing; I was anxious about
+biting down on a platform that was very early on in it&rsquo;s development.</li>
+</ol>
+
+<p>We decided that InfluxDB was very awesome, super simple, but too immature
+for our case. A lot has changed with Influx since we decided to write our own analytics backend,
+and I&rsquo;m still very curious about developing a web analytics solution in the future that uses InfluxDB; but we had moved on.</p>
+
+<h3 id="django-keeping-things-dead-simple">Django: keeping things dead simple</h3>
+
+<p>The biggest take-away from our examination of InfluxDB was that analytics events
+are simple (time + data); and implementing web-analytics should be as simple as time-stamping a dictionary and inserting that as a new row in Postgres.</p>
+
+<p>It&rsquo;s also worth noting that our email-marketing tool is written in Django, and we recently
+revamped our CMS to be entirely self-hosted in Django as well; so the notion of rolling
+our own analytics into the same Django application was an incredibly appealing thought.</p>
+
+<p>So that&rsquo;s what we did. Essentially this how it works:</p>
+
+<ol>
+<li>Receive JSON packet from the front-end.</li>
+<li>Clean the data and time-stamp it.</li>
+<li>Save the event to Redis.</li>
+<li>During a regularly scheduled cron-job, scrape new events in Redis and save them
+into Postgres.</li>
+</ol>
+
+<p>That&rsquo;s it, nothing fancy. We&rsquo;ve been using this method for over 6 months and haven&rsquo;t had to change
+anything - it&rsquo;s stable, simple, and hasn&rsquo;t broken&hellip; yet.</p>
+
+<h3 id="the-hard-part-visualizing-the-data">The hard part: visualizing the data</h3>
+
+<p>I realize now that saving a timeseries of event data is not really all that complicated,
+and querying that data in Postgres is likewise not very complicated. But it doesn&rsquo;t take very long
+for your analytics table to grow to millions of rows, and doing raw queries for very specific or complex
+event behavior quickly becomes tricky.</p>
+
+<p>Thus, our next big project was a dashboard. To give you a sense of the difficulty associated with
+creating an analytics dashboard, consider this:</p>
+
+<ol>
+<li>Building the analytics backend took less than a week (that was six months ago).</li>
+<li>We&rsquo;re still building the dashboard!</li>
+</ol>
+
+<p>Actually, we&rsquo;ll probably always be working on the dashboard because as a company we continuously identify
+new measures we deem important. If anything, this is where using a third-party analytics solution really
+pays for itself - all those pre-built visualizations are ready to go on day 1. Google and Piwik make it easy for a non-developer to create new chart widgets and drill-down into their data sets to pull out any visualization you want.</p>
+
+<p>On the flip side, I believe that Google and Piwik probably have <em>way too many</em> features for small companies,
+and there is indeed some utility in only displaying the bare minimum metrics in the beginning. At the very least, that&rsquo;s what we decided to do: we wrote down a list of five or so metrics that were the <em>most important to us</em> and we built a dashboard that only visualized those things.</p>
+
+<p>Essentially, this is how our dashboard works:</p>
+
+<ol>
+<li>We use cron jobs and <a href="https://github.com/spotify/luigi">Luigi</a> to extract the analytics data from our dashboard (and now other places like
+our git repos and our sales platform) and transform the data into visualization-specific datasets, and save those into Redis.</li>
+<li>Our frontend consumes the datasets in Redis and produces visualizations using <a href="http://www.highcharts.com/">Highcharts</a>.</li>
+</ol>
+
+<p>A side benefit of having to write our own analytics dashboard is that we can include data from any company
+source (not just the analytics pipelines), so we&rsquo;re able to display sales data in the same visualization as our website funnel.</p>
+
+<h3 id="takeaways">Takeaways</h3>
+
+<p>Building our own analytics pipeline has been an incredibly interesting project. Before coming to work at SpiderOak I would have probably just used Google Analytics on every one of my web projects without a second thought. Now I&rsquo;m proud to say that, as a company, we&rsquo;re able to gain valuable business insights from our customers <em>without giving that data to anyone else</em>.</p>
+
+<p>In fact, that&rsquo;s the key message I&rsquo;d like to impart: whether you decide to build your own analytics solution in house or use a third-party solution, please inject consideration of your customer&rsquo;s privacy into your decision process.</p>
+
+<p>Now, if you are considering rolling your own analytics solution in-house, here are the
+things you should consider:</p>
+
+<ol>
+<li>It&rsquo;s not hard to collect data.</li>
+<li>It&rsquo;s hard to summarize and visualize data.</li>
+<li>Don&rsquo;t write your own ETL (we used Luigi since we&rsquo;re Python based, I&rsquo;m sure there&rsquo;s something for your stack).</li>
+</ol>
+
+<p>It was somewhat cathartic watching my own web visits dashboard spike with a surge of visitors when Mike&rsquo;s blog post about our analytics solution hit the front page of Hacker News. It was also good that nothing broke!</p>
+
+</main>
+
+  <footer>
+  <script src="//cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+<script src="//cdn.bootcss.com/highlight.js/9.12.0/languages/r.min.js"></script>
+
+<script>
+    hljs.configure({ languages: [] });
+    hljs.initHighlightingOnLoad();
+</script>
+  
+  <hr/>
+  &copy; <a href="https://qdonnellan.com">Quentin Donnellan</a> 2019 | <a href="https://github.com/qdonnellan">GitHub</a> | <a href="https://linkedin.com/in/qdonnellan">LinkedIn</a>
+  
+  </footer>
+  </body>
+</html>
