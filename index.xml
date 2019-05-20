@@ -6,10 +6,20 @@
     <description>Recent content in Home on Quentin Donnellan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 22 May 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 18 May 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://qdonnellan.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>3 Practical Ways to Become a Team Multiplier</title>
+      <link>http://qdonnellan.com/become-a-team-multiplier/</link>
+      <pubDate>Sat, 18 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://qdonnellan.com/become-a-team-multiplier/</guid>
+      <description>As you become more and more senior in your software career, you may notice more of an urge to be less of the rockstar individual contributor, and more of a team multiplier who lifts less and less &amp;ldquo;weight&amp;rdquo; individually, while having an exponentially greater impact on the team&amp;rsquo;s performance.
+Personally, this is an obvious goal for me: as a self-taught software developer, I&amp;rsquo;m always finding myself surrounded by engineers whose skill in technical execution far exceeds my own.</description>
+    </item>
     
     <item>
       <title>Handling Strong Opinions, Disagreements as a High Functioning Team</title>
