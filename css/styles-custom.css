@@ -81,3 +81,10 @@ a {
 a:hover {
   color: #2700e6;
 }
+
+@media (max-width: 700px) {
+  blockquote {
+    margin-inline-start: 10px;
+    margin-inline-end: 10px;
+  }
+}
